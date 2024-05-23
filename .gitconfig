@@ -1,3 +1,5 @@
 [user]
 	name = kagaya
 	email = kagayatest1@gmail.com
+[safe]
+	directory = /home/Laravel_kanai

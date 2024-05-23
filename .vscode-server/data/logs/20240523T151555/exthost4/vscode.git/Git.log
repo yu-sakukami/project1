@@ -1,0 +1,73 @@
+2024-05-23 15:50:03.510 [info] ログ レベル: Info
+2024-05-23 15:50:03.510 [info] Git の検証が検出されました: "git"
+2024-05-23 15:50:03.510 [info] "git" から Git "2.34.1" を使用しています
+2024-05-23 15:50:03.510 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 15:50:03.510 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 15:50:03.510 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:50:03.510 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-05-23 15:50:03.510 [info] Open repository: /home/tenda
+2024-05-23 15:50:03.510 [info] > git config --get commit.template [1ms]
+2024-05-23 15:50:03.510 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-05-23 15:50:03.510 [info] > git status -z -uall [30ms]
+2024-05-23 15:50:03.510 [info] > git merge-base refs/heads/main refs/remotes/origin/main [46ms]
+2024-05-23 15:50:03.510 [info] > git config --get commit.template [22ms]
+2024-05-23 15:50:03.510 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [4ms]
+2024-05-23 15:50:03.510 [info] > git diff --name-status -z --diff-filter=ADMR 7208754e51fc4a77fb28224fde325787906a0892...refs/remotes/origin/main [17ms]
+2024-05-23 15:50:03.510 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-05-23 15:50:03.510 [info] > git status -z -uall [25ms]
+2024-05-23 15:50:04.164 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-23 15:52:02.165 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:52:02.165 [info] fatal: detected dubious ownership in repository at '/home/Laravel_kanai'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/Laravel_kanai
+2024-05-23 15:52:02.172 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:52:02.172 [info] fatal: detected dubious ownership in repository at '/home/Laravel_kanai'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/Laravel_kanai
+2024-05-23 15:52:02.177 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:52:02.177 [info] fatal: detected dubious ownership in repository at '/home/Laravel_kanai'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/Laravel_kanai
+2024-05-23 15:52:02.183 [info] > git rev-parse --show-toplevel [0ms]
+2024-05-23 15:52:02.183 [info] fatal: detected dubious ownership in repository at '/home/Laravel_kanai'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/Laravel_kanai
+2024-05-23 15:52:02.189 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:52:02.189 [info] fatal: detected dubious ownership in repository at '/home/Laravel_kanai'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/Laravel_kanai
+2024-05-23 15:52:13.480 [info] > git config --global --add safe.directory /home/Laravel_kanai [2ms]
+2024-05-23 15:52:13.486 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:52:13.490 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-05-23 15:52:13.498 [info] Open repository: /home/Laravel_kanai
+2024-05-23 15:52:13.504 [info] > git config --get commit.template [1ms]
+2024-05-23 15:52:13.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 15:52:13.516 [warning] ENOENT: no such file or directory, open '/home/Laravel_kanai/.git/refs/remotes/origin/main'
+2024-05-23 15:52:13.517 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-05-23 15:52:13.527 [info] > git status -z -uall [7ms]
+2024-05-23 15:52:13.541 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2024-05-23 15:52:13.548 [info] > git config --get commit.template [8ms]
+2024-05-23 15:52:13.548 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-05-23 15:52:13.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 15:52:13.562 [info] > git diff --name-status -z --diff-filter=ADMR 8a0245a5be2b9351b46ac06303b76bedfcb54cab...refs/remotes/origin/main [9ms]
+2024-05-23 15:52:13.567 [warning] ENOENT: no such file or directory, open '/home/Laravel_kanai/.git/refs/remotes/origin/main'
+2024-05-23 15:52:13.579 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2024-05-23 15:52:13.588 [info] > git status -z -uall [6ms]
+2024-05-23 15:52:14.031 [info] > git check-ignore -v -z --stdin [4ms]
+2024-05-23 15:52:14.032 [info] > git check-ignore -v -z --stdin [2ms]
+2024-05-23 15:52:16.663 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-23 15:53:09.988 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-05-23 15:53:09.995 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2024-05-23 15:53:10.001 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [7ms]
+2024-05-23 15:53:10.002 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-05-23 15:53:10.168 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-23 15:53:10.168 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 15:53:10.178 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:53:10.178 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 15:53:10.668 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-23 15:53:26.031 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]

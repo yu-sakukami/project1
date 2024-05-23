@@ -115,3 +115,5 @@ git config --list
 git config --global user.name kagaya
 git config --global user.email kagayatest1@gmail.com
 git config --list
+git clone https://github.com/canitenda78/Laravel_kanai.git
+sudo git clone https://github.com/canitenda78/Laravel_kanai.git

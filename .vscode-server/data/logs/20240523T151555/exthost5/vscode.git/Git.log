@@ -1,0 +1,38 @@
+2024-05-23 15:53:40.360 [info] ログ レベル: Info
+2024-05-23 15:53:40.361 [info] Git の検証が検出されました: "git"
+2024-05-23 15:53:40.361 [info] "git" から Git "2.34.1" を使用しています
+2024-05-23 15:53:40.361 [info] > git rev-parse --show-toplevel [17ms]
+2024-05-23 15:53:40.361 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-05-23 15:53:40.361 [info] Open repository: /home/Laravel_kanai
+2024-05-23 15:53:40.362 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-23 15:53:40.363 [info] > git config --get commit.template [12ms]
+2024-05-23 15:53:40.384 [info] > git rev-parse --show-toplevel [12ms]
+2024-05-23 15:53:40.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-05-23 15:53:40.393 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 15:53:40.399 [warning] ENOENT: no such file or directory, open '/home/Laravel_kanai/.git/refs/remotes/origin/main'
+2024-05-23 15:53:40.457 [info] > git rev-parse refs/remotes/origin/main [59ms]
+2024-05-23 15:53:40.468 [info] > git rev-parse --show-toplevel [64ms]
+2024-05-23 15:53:40.476 [info] > git status -z -uall [12ms]
+2024-05-23 15:53:40.499 [info] > git merge-base refs/heads/main refs/remotes/origin/main [14ms]
+2024-05-23 15:53:40.507 [info] > git rev-parse --show-toplevel [32ms]
+2024-05-23 15:53:40.517 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [10ms]
+2024-05-23 15:53:40.528 [info] > git config --get commit.template [30ms]
+2024-05-23 15:53:40.531 [info] > git rev-parse --show-toplevel [14ms]
+2024-05-23 15:53:40.546 [info] > git diff --name-status -z --diff-filter=ADMR 8a0245a5be2b9351b46ac06303b76bedfcb54cab...refs/remotes/origin/main [18ms]
+2024-05-23 15:53:40.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-05-23 15:53:40.568 [warning] ENOENT: no such file or directory, open '/home/Laravel_kanai/.git/refs/remotes/origin/main'
+2024-05-23 15:53:40.569 [info] > git rev-parse --show-toplevel [9ms]
+2024-05-23 15:53:40.570 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-05-23 15:53:40.585 [info] > git status -z -uall [9ms]
+2024-05-23 15:53:40.585 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:53:40.596 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:53:40.607 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:53:40.914 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-23 15:53:42.729 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 15:53:47.663 [info] > git checkout -q -b kagaya --no-track HEAD [2ms]
+2024-05-23 15:53:47.663 [info] fatal: Unable to create '/home/Laravel_kanai/.git/index.lock': Permission denied
+2024-05-23 15:53:47.676 [info] > git config --get commit.template [7ms]
+2024-05-23 15:53:47.676 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 15:53:47.680 [warning] ENOENT: no such file or directory, open '/home/Laravel_kanai/.git/refs/remotes/origin/main'
+2024-05-23 15:53:47.681 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-05-23 15:53:47.690 [info] > git status -z -uall [7ms]

@@ -1,0 +1,128 @@
+2024-05-23 15:54:31.704 [info] ログ レベル: Info
+2024-05-23 15:54:31.704 [info] Git の検証が検出されました: "git"
+2024-05-23 15:54:31.704 [info] "git" から Git "2.34.1" を使用しています
+2024-05-23 15:54:31.704 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-23 15:54:31.704 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 15:54:31.704 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 15:54:31.704 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-05-23 15:54:31.704 [info] Open repository: /home/Laravel_kanai
+2024-05-23 15:54:31.705 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-23 15:54:31.706 [info] > git config --get commit.template [11ms]
+2024-05-23 15:54:31.725 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-05-23 15:54:31.730 [info] Open repository: /home/tenda
+2024-05-23 15:54:31.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-05-23 15:54:31.753 [warning] ENOENT: no such file or directory, open '/home/Laravel_kanai/.git/refs/remotes/origin/main'
+2024-05-23 15:54:31.755 [info] > git config --get commit.template [11ms]
+2024-05-23 15:54:31.757 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-05-23 15:54:31.779 [info] > git status -z -uall [15ms]
+2024-05-23 15:54:31.780 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 15:54:31.804 [info] > git merge-base refs/heads/main refs/remotes/origin/main [15ms]
+2024-05-23 15:54:31.813 [info] > git config --get commit.template [9ms]
+2024-05-23 15:54:31.814 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-05-23 15:54:31.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 15:54:31.834 [info] > git diff --name-status -z --diff-filter=ADMR 8a0245a5be2b9351b46ac06303b76bedfcb54cab...refs/remotes/origin/main [14ms]
+2024-05-23 15:54:31.841 [warning] ENOENT: no such file or directory, open '/home/Laravel_kanai/.git/refs/remotes/origin/main'
+2024-05-23 15:54:31.842 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-05-23 15:54:31.854 [info] > git status -z -uall [28ms]
+2024-05-23 15:54:31.880 [info] > git status -z -uall [33ms]
+2024-05-23 15:54:31.881 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2024-05-23 15:54:31.897 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-05-23 15:54:31.906 [info] > git config --get commit.template [26ms]
+2024-05-23 15:54:31.908 [info] > git diff --name-status -z --diff-filter=ADMR 7208754e51fc4a77fb28224fde325787906a0892...refs/remotes/origin/main [3ms]
+2024-05-23 15:54:31.916 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 15:54:31.938 [info] > git status -z -uall [18ms]
+2024-05-23 15:54:32.587 [info] > git check-ignore -v -z --stdin [5ms]
+2024-05-23 15:54:32.588 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-23 15:55:44.280 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:44.280 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:44.942 [info] > git rev-parse --show-toplevel [0ms]
+2024-05-23 15:55:44.942 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:49.576 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:49.576 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:49.580 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:49.580 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.473 [info] > git rev-parse --show-toplevel [0ms]
+2024-05-23 15:55:50.473 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.478 [info] > git rev-parse --show-toplevel [0ms]
+2024-05-23 15:55:50.478 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.484 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:50.484 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.489 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:50.489 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.493 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:50.493 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.498 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:50.498 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.502 [info] > git rev-parse --show-toplevel [0ms]
+2024-05-23 15:55:50.503 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.508 [info] > git rev-parse --show-toplevel [0ms]
+2024-05-23 15:55:50.508 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.513 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:50.513 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.518 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:50.518 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.523 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:55:50.523 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:55:50.528 [info] > git rev-parse --show-toplevel [0ms]
+2024-05-23 15:55:50.528 [info] fatal: detected dubious ownership in repository at '/home/laravel'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/laravel
+2024-05-23 15:56:41.638 [info] > git check-ignore -v -z --stdin [2ms]
+2024-05-23 15:56:43.012 [info] > git show --textconv :.bash_history [5ms]
+2024-05-23 15:56:43.014 [info] > git ls-files --stage -- /home/tenda/.bash_history [2ms]
+2024-05-23 15:56:43.019 [info] > git cat-file -s 5966d3fe7552f4138246d2dd3481f3ade5286d2f [1ms]
+2024-05-23 15:56:44.530 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-05-23 15:56:44.537 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2024-05-23 15:56:44.542 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-05-23 15:56:44.543 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-05-23 15:56:44.678 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 15:56:44.678 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 15:56:44.688 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 15:56:44.688 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 15:56:45.174 [info] > git check-ignore -v -z --stdin [2ms]
