@@ -548,3 +548,69 @@
 2024-05-23 16:58:40.400 [info] > git ls-files --stage -- /home/tenda/.bashrc [2ms]
 2024-05-23 16:58:40.406 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
 2024-05-23 16:58:40.416 [info] > git show --textconv :.bashrc [2ms]
+2024-05-23 16:58:56.411 [info] > git ls-files --stage -- /home/tenda/.bashrc [2ms]
+2024-05-23 16:58:56.416 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
+2024-05-23 16:58:56.426 [info] > git show --textconv :.bashrc [2ms]
+2024-05-23 16:59:03.528 [info] > git ls-files --stage -- /home/tenda/.bashrc [2ms]
+2024-05-23 16:59:03.533 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
+2024-05-23 16:59:03.541 [info] > git show --textconv :.bashrc [1ms]
+2024-05-23 17:01:01.659 [info] > git ls-files --stage -- /home/tenda/.bashrc [1ms]
+2024-05-23 17:01:01.663 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
+2024-05-23 17:01:01.672 [info] > git show --textconv :.bashrc [1ms]
+2024-05-23 17:01:21.337 [info] > git ls-files --stage -- /home/tenda/.bashrc [1ms]
+2024-05-23 17:01:21.341 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
+2024-05-23 17:01:21.351 [info] > git show --textconv :.bashrc [2ms]
+2024-05-23 17:02:03.895 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-05-23 17:02:30.761 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 17:02:35.460 [info] > git checkout -q -b kagaya --no-track HEAD [26ms]
+2024-05-23 17:02:35.476 [info] > git config --get commit.template [7ms]
+2024-05-23 17:02:35.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya refs/remotes/kagaya [1ms]
+2024-05-23 17:02:35.498 [info] > git status -z -uall [13ms]
+2024-05-23 17:02:35.521 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya [2ms]
+2024-05-23 17:02:35.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya [1ms]
+2024-05-23 17:02:35.552 [info] > git config --local branch.kagaya.vscode-merge-base [0ms]
+2024-05-23 17:02:35.554 [warning] git config failed: Failed to execute git
+2024-05-23 17:02:35.562 [info] > git reflog refs/heads/kagaya --grep-reflog=branch: Created from *. [2ms]
+2024-05-23 17:02:35.570 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to kagaya [1ms]
+2024-05-23 17:02:35.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 17:02:35.583 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-05-23 17:02:35.584 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-05-23 17:02:35.584 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/kagaya'
+2024-05-23 17:02:35.584 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/kagaya'
+2024-05-23 17:02:35.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya [1ms]
+2024-05-23 17:02:35.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya [1ms]
+2024-05-23 17:02:35.620 [info] > git config --local branch.kagaya.vscode-merge-base [1ms]
+2024-05-23 17:02:35.620 [warning] git config failed: Failed to execute git
+2024-05-23 17:02:35.626 [info] > git reflog refs/heads/kagaya --grep-reflog=branch: Created from *. [1ms]
+2024-05-23 17:02:35.630 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to kagaya [1ms]
+2024-05-23 17:02:35.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 17:02:35.641 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-05-23 17:02:35.641 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-05-23 17:02:35.641 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/kagaya'
+2024-05-23 17:02:35.641 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/kagaya'
+2024-05-23 17:02:35.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya [1ms]
+2024-05-23 17:02:35.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya [1ms]
+2024-05-23 17:02:35.706 [info] > git config --local branch.kagaya.vscode-merge-base [0ms]
+2024-05-23 17:02:35.706 [warning] git config failed: Failed to execute git
+2024-05-23 17:02:35.711 [info] > git reflog refs/heads/kagaya --grep-reflog=branch: Created from *. [1ms]
+2024-05-23 17:02:35.718 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to kagaya [1ms]
+2024-05-23 17:02:35.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-05-23 17:02:35.727 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-05-23 17:02:35.727 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-05-23 17:02:35.727 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/kagaya'
+2024-05-23 17:02:35.727 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/kagaya'
+2024-05-23 17:02:36.917 [info] > git ls-files --stage -- /home/tenda/.bashrc [2ms]
+2024-05-23 17:02:36.922 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
+2024-05-23 17:02:36.931 [info] > git show --textconv :.bashrc [2ms]
+2024-05-23 17:02:38.080 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 17:03:16.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya [1ms]
+2024-05-23 17:03:16.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya [0ms]
+2024-05-23 17:03:16.837 [info] > git config --local branch.kagaya.vscode-merge-base [1ms]
+2024-05-23 17:03:16.837 [warning] git config failed: Failed to execute git
+2024-05-23 17:03:16.844 [info] > git reflog refs/heads/kagaya --grep-reflog=branch: Created from *. [1ms]
+2024-05-23 17:03:16.851 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to kagaya [1ms]
+2024-05-23 17:03:16.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 17:03:16.862 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-05-23 17:03:16.862 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-05-23 17:03:16.862 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/kagaya'
+2024-05-23 17:03:16.862 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/kagaya'

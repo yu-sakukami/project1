@@ -1,0 +1,60 @@
+2024-05-23 17:03:32.422 [info] ログ レベル: Info
+2024-05-23 17:03:32.422 [info] Git の検証が検出されました: "git"
+2024-05-23 17:03:32.422 [info] "git" から Git "2.34.1" を使用しています
+2024-05-23 17:03:32.422 [info] > git rev-parse --show-toplevel [18ms]
+2024-05-23 17:03:32.422 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-05-23 17:03:32.422 [info] Open repository: /home/tenda
+2024-05-23 17:03:32.423 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 17:03:32.424 [info] > git config --get commit.template [7ms]
+2024-05-23 17:03:32.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya refs/remotes/kagaya [2ms]
+2024-05-23 17:03:32.442 [info] > git rev-parse --show-toplevel [14ms]
+2024-05-23 17:03:32.448 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 17:03:32.455 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 17:03:32.460 [info] > git status -z -uall [19ms]
+2024-05-23 17:03:32.472 [info] > git rev-parse --show-toplevel [13ms]
+2024-05-23 17:03:32.476 [info] > git config --get commit.template [5ms]
+2024-05-23 17:03:32.477 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 17:03:32.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya refs/remotes/kagaya [3ms]
+2024-05-23 17:03:32.488 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-23 17:03:32.492 [info] > git rev-parse --show-toplevel [0ms]
+2024-05-23 17:03:32.500 [info] > git status -z -uall [13ms]
+2024-05-23 17:03:33.029 [info] > git show --textconv :.bashrc [9ms]
+2024-05-23 17:03:33.031 [info] > git ls-files --stage -- /home/tenda/.bashrc [2ms]
+2024-05-23 17:03:33.038 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
+2024-05-23 17:03:33.074 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-23 17:03:57.085 [info] > git ls-files --stage -- /home/tenda/.bashrc [2ms]
+2024-05-23 17:03:57.091 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
+2024-05-23 17:03:57.103 [info] > git show --textconv :.bashrc [2ms]
+2024-05-23 17:04:03.616 [info] > git push -u origin kagaya [26280ms]
+2024-05-23 17:04:03.616 [info] remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File .cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/node is 87.79 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File .vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node is 88.07 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: 
+remote: Create a pull request for 'kagaya' on GitHub by visiting:        
+remote:      https://github.com/yu-sakukami/project1/pull/new/kagaya        
+remote: 
+To https://github.com/yu-sakukami/project1.git
+ * [new branch]      kagaya -> kagaya
+2024-05-23 17:04:03.625 [info] > git config --get commit.template [3ms]
+2024-05-23 17:04:03.626 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya refs/remotes/kagaya [1ms]
+2024-05-23 17:04:03.638 [info] > git status -z -uall [9ms]
+2024-05-23 17:04:03.648 [info] > git merge-base refs/heads/kagaya refs/remotes/origin/kagaya [5ms]
+2024-05-23 17:04:03.653 [info] > git rev-list --count --left-right refs/heads/kagaya...refs/remotes/origin/kagaya [1ms]
+2024-05-23 17:04:03.658 [info] > git diff --name-status -z --diff-filter=ADMR e42a2114733a3156f54e0c5d325b12b13c7d391e...refs/remotes/origin/kagaya [1ms]
+2024-05-23 17:04:04.906 [info] > git ls-files --stage -- /home/tenda/.bashrc [2ms]
+2024-05-23 17:04:04.910 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
+2024-05-23 17:04:04.918 [info] > git show --textconv :.bashrc [2ms]
+2024-05-23 17:04:10.466 [info] > git log --oneline --cherry kagaya...kagaya@{upstream} -- [1ms]
+2024-05-23 17:04:11.002 [info] > git pull --tags origin kagaya [532ms]
+2024-05-23 17:04:11.002 [info] From https://github.com/yu-sakukami/project1
+ * branch            kagaya     -> FETCH_HEAD
+2024-05-23 17:04:11.010 [info] > git config --get commit.template [4ms]
+2024-05-23 17:04:11.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/kagaya refs/remotes/kagaya [2ms]
+2024-05-23 17:04:11.026 [info] > git status -z -uall [11ms]
+2024-05-23 17:04:12.266 [info] > git ls-files --stage -- /home/tenda/.bashrc [1ms]
+2024-05-23 17:04:12.270 [info] > git cat-file -s 4557047aed53d746ea71211e1c3669529e52ad1e [1ms]
+2024-05-23 17:04:12.279 [info] > git show --textconv :.bashrc [1ms]
+2024-05-23 17:04:33.926 [info] > git merge-base refs/heads/kagaya refs/remotes/origin/kagaya [1ms]
+2024-05-23 17:04:33.931 [info] > git rev-list --count --left-right refs/heads/kagaya...refs/remotes/origin/kagaya [2ms]
+2024-05-23 17:04:34.542 [info] > git check-ignore -v -z --stdin [1ms]
