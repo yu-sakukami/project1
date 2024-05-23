@@ -506,3 +506,8 @@
 2024-05-23 15:46:37.164 [info] > git ls-tree -l HEAD -- /home/tenda/.vscode-server/data/logs/20240523T151555/exthost3/vscode.git/Git.log [2ms]
 2024-05-23 15:46:42.506 [info] > git show --textconv HEAD:.vscode-server/data/logs/20240523T151555/exthost3/vscode.git/Git.log [5ms]
 2024-05-23 15:46:42.507 [info] > git ls-tree -l HEAD -- /home/tenda/.vscode-server/data/logs/20240523T151555/exthost3/vscode.git/Git.log [2ms]
+2024-05-23 16:35:34.966 [info] > git ls-tree -l HEAD -- /home/tenda/.vscode-server/data/logs/20240523T151555/exthost3/vscode.git/Git.log [1ms]
+2024-05-23 16:35:34.984 [info] > git ls-tree -l HEAD -- /home/tenda/.vscode-server/data/logs/20240523T151555/exthost3/vscode.git/Git.log [6ms]
+2024-05-23 16:35:34.985 [info] > git show --textconv HEAD:.vscode-server/data/logs/20240523T151555/exthost3/vscode.git/Git.log [2ms]
+2024-05-23 16:35:35.046 [info] > git show --textconv HEAD:.vscode-server/data/logs/20240523T151555/exthost3/vscode.git/Git.log [3ms]
+2024-05-23 16:35:48.120 [info] > git check-ignore -v -z --stdin [2ms]
