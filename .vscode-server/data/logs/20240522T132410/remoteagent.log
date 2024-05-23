@@ -1,0 +1,24 @@
+2024-05-22 13:24:10.996 [info] 
+
+
+
+
+2024-05-22 13:24:10.996 [info] Extension host agent started.
+2024-05-22 13:24:10.996 [info] Started initializing default profile extensions in extensions installation folder. file:///home/tenda/.vscode-server/extensions
+2024-05-22 13:24:11.007 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/tenda/.vscode-server/extensions
+2024-05-22 13:24:11.199 [info] [127.0.0.1][a946849c][ManagementConnection] New connection established.
+2024-05-22 13:24:11.310 [info] Installing extensions...
+2024-05-22 13:24:11.481 [info] [127.0.0.1][50beec10][ExtensionHostConnection] New connection established.
+2024-05-22 13:24:11.526 [info] [127.0.0.1][50beec10][ExtensionHostConnection] <4733> Launched Extension Host Process.
+2024-05-22 13:24:11.920 [info] Installing extension 'ms-ceintl.vscode-language-pack-ja'...
+2024-05-22 13:24:11.921 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:24:11.946 [info] Installing extension: ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:24:13.410 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-ja: Success. Duration: 1124ms.
+2024-05-22 13:24:13.505 [info] Extracted extension to file:///home/tenda/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.89.2024050109: ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:24:13.508 [info] Renamed to /home/tenda/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.89.2024050109
+2024-05-22 13:24:13.510 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:24:13.514 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:24:13.546 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja
+2024-05-22 13:24:13.547 [info] Extension 'ms-ceintl.vscode-language-pack-ja' v1.89.2024050109 was successfully installed.
+2024-05-22 13:24:16.887 [info] [127.0.0.1][a946849c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-05-22 13:24:16.923 [info] [127.0.0.1][50beec10][ExtensionHostConnection] <4733> Extension Host Process exited with code: 0, signal: null.

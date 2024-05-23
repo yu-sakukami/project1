@@ -1,0 +1,13 @@
+2024-05-23 09:09:03.504 [info] 
+
+
+
+
+2024-05-23 09:09:03.504 [info] Extension host agent started.
+2024-05-23 09:09:03.504 [info] Started initializing default profile extensions in extensions installation folder. file:///home/tenda/.cursor-server/extensions
+2024-05-23 09:09:03.518 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/tenda/.cursor-server/extensions
+2024-05-23 09:09:03.673 [info] [127.0.0.1][3e7874e3][ManagementConnection] New connection established.
+2024-05-23 09:09:04.553 [info] [127.0.0.1][777423f3][ExtensionHostConnection] New connection established.
+2024-05-23 09:09:04.611 [info] [127.0.0.1][777423f3][ExtensionHostConnection] <84875> Launched Extension Host Process.
+2024-05-23 12:40:59.998 [info] [127.0.0.1][3e7874e3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-05-23 12:41:00.096 [info] [127.0.0.1][777423f3][ExtensionHostConnection] <84875> Extension Host Process exited with code: 0, signal: null.

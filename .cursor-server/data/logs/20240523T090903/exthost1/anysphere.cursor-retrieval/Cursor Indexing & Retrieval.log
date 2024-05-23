@@ -1,0 +1,1152 @@
+2024-05-23 09:09:09.264 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-05-23 09:09:09.264 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:514:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)
+2024-05-23 09:09:09.445 [info] Creating merkle client.
+2024-05-23 09:09:09.445 [info] Done creating merkle client.
+2024-05-23 09:09:09.445 [info] Doing a startup handshake.
+2024-05-23 09:09:09.854 [info] Finished initializing merkle tree in 409.28631599992514 ms.
+2024-05-23 09:09:09.856 [info] Doing the initial handshake with hash: 7507101a3a9b0729a8abb3b102d863d2b22a9b7302be39eff33b25b19f37525a
+2024-05-23 09:09:09.910 [info] Handshake start
+2024-05-23 09:09:09.917 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/tenda/.cursor-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-05-23 09:09:10.956 [info] Handshake timing: 1100.1128350012004
+2024-05-23 09:09:10.957 [info] Handshake result:
+2024-05-23 09:09:10.957 [info] Starting fast remote sync.
+2024-05-23 09:09:10.958 [info] Total num embeddable files: 1053
+2024-05-23 09:09:10.958 [info] Root hash: 7507101a3a9b0729a8abb3b102d863d2b22a9b7302be39eff33b25b19f37525a
+2024-05-23 09:09:10.958 [info] Starting repository upload from scratch.
+2024-05-23 09:09:10.974 [info] Uploading 1053 files.
+2024-05-23 09:09:21.645 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:24.074 [info] Completed 100 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:26.497 [info] Completed 150 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:29.648 [info] Completed 200 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:33.154 [info] Completed 250 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:36.544 [info] Completed 300 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:40.341 [info] Completed 350 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:44.662 [info] Completed 400 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:48.242 [info] Completed 450 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:48.251 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-05-23 09:09:52.739 [info] Completed 500 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:09:58.498 [info] Completed 550 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:04.478 [info] Completed 600 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:12.386 [info] Completed 650 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:20.457 [info] Completed 700 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:29.732 [info] Completed 750 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:34.701 [info] Completed 800 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:40.342 [info] Completed 850 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:44.849 [info] Completed 900 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:49.400 [info] Completed 950 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:50.269 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-05-23 09:10:53.983 [info] Completed 1000 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:10:57.487 [info] Completed 1050 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:11:36.931 [info] Completed 1100 jobs for absoluteDirectoryPath: undefined
+2024-05-23 09:12:58.428 [info] Finished indexing repository.
+2024-05-23 09:12:58.429 [info] Indexing job successfully done or aborted.
+2024-05-23 09:19:09.428 [info] Creating merkle client.
+2024-05-23 09:19:09.429 [info] Done creating merkle client.
+2024-05-23 09:19:09.429 [info] Doing a startup handshake.
+2024-05-23 09:19:09.651 [info] Finished initializing merkle tree in 222.82456599920988 ms.
+2024-05-23 09:19:09.652 [info] Doing the initial handshake with hash: 0a79274d6c8c1a2e66d2a41a89c37514dcbc0f2c73a59d04f5682200389734f8
+2024-05-23 09:19:09.661 [info] Handshake start
+2024-05-23 09:19:10.404 [info] Handshake timing: 751.2243449985981
+2024-05-23 09:19:10.404 [info] Handshake result:
+2024-05-23 09:19:10.404 [info] Starting fast remote sync.
+2024-05-23 09:19:10.405 [info] Total num embeddable files: 1054
+2024-05-23 09:19:10.406 [info] Root hash: 0a79274d6c8c1a2e66d2a41a89c37514dcbc0f2c73a59d04f5682200389734f8
+2024-05-23 09:19:10.406 [info] In the out of sync case.
+2024-05-23 09:19:10.406 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"0a79274d6c8c1a2e66d2a41a89c37514dcbc0f2c73a59d04f5682200389734f8"}
+2024-05-23 09:19:10.408 [info] Waiting on semaphore to be released 1
+2024-05-23 09:19:10.606 [info] Waiting on semaphore to be released 1
+2024-05-23 09:19:10.807 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"ebc7e97a35715d776718ae6a933c3443522b83b8956c41cdbcb915caf42d51d5"}
+2024-05-23 09:19:10.808 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project","hash":"df3cf3da45afc032fdd809f0bf980e7c157d54a15bda99d35a3f55b523083708"}
+2024-05-23 09:19:10.808 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server","hash":"a101e56cd51f6983c91d22f024730e4d46c516227e4a8e59eb7177813f27b0ee"}
+2024-05-23 09:19:10.809 [info] Waiting on semaphore to be released 3
+2024-05-23 09:19:11.007 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"2a2905c7eafd218954226da61969656a5d937f1fa419b01a8dd60ca27c3adaae"}
+2024-05-23 09:19:11.007 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin","hash":"4b96115b0ea742c7a8d87526e88c8c1163f5f7534b305f81f7cd6ca55c06f783"}
+2024-05-23 09:19:11.008 [info] Waiting on semaphore to be released 4
+2024-05-23 09:19:11.206 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User","hash":"5805e7d7323de678831d68497b77a94e1825946c85ed2222c4a351f8ee8eae01"}
+2024-05-23 09:19:11.207 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"1ff0fe893ac3e5758a55270063aba44dc6b6627835c2406f8c4aee941ec6ea43"}
+2024-05-23 09:19:11.208 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/routes","hash":"ffd0f13ef9dc79ea5cc4abf3a24974e7c9929e4ef92ee343e940863f04020f5f"}
+2024-05-23 09:19:11.208 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/tests","hash":"bd328a8e07eb2f313b7cab4c82bdbc207d998c6964947cc28d0e817f225d5ead"}
+2024-05-23 09:19:11.208 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/extensions","hash":"59ccd0bc08998e9e5cb3d9bf2950d112b15a026026b2d445f7c323e4da4178ba"}
+2024-05-23 09:19:11.209 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data","hash":"3b803739897a98fe2de5715abae29e99b135a3feaf05565937ccb327bf3ba3b6"}
+2024-05-23 09:19:11.209 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin","hash":"1612bc21613f7baef3e564746a3506e67450f293711b8f246eb8a574efbe8c61"}
+2024-05-23 09:19:11.210 [info] Waiting on semaphore to be released 8
+2024-05-23 09:19:11.408 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0","hash":"f087dc78e8549bd85af542d094a5b282c666617eafd7050c45a76c76f02956c8"}
+2024-05-23 09:19:11.408 [info] Waiting on semaphore to be released 8
+2024-05-23 09:19:11.608 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/tests/Feature","hash":"39858d9b6c22be0fc7f4c7cf799eb27b37313665281cb04ac312ec0cfa4eddd6"}
+2024-05-23 09:19:11.610 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.89.2024050109","hash":"aa2954fd84b04c74486ae2f3cd334fd4e78bb93a1a99ef37ff611dad9cada98e"}
+2024-05-23 09:19:11.610 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"58d776f206a17872e0a99f5245081631e0b7ebe3ded6f07c4bf93c8cc45765e4"}
+2024-05-23 09:19:11.611 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs","hash":"bae8b0b618a7b1b34de2cd2b2a01d9778f39e90784f47e04ff12eeabeff8ade0"}
+2024-05-23 09:19:11.611 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685","hash":"07a15ea1d6d56e09f49638b2b05d7e3a7cc9f7cee87fcf4d79f8d7cf4099aeef"}
+2024-05-23 09:19:11.611 [info] Waiting on semaphore to be released 6
+2024-05-23 09:19:11.809 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions","hash":"72827043996fe392ecda0de4231fb24a32b98badeb822a53e56e84a6bf0ba2cc"}
+2024-05-23 09:19:11.810 [info] Waiting on semaphore to be released 6
+2024-05-23 09:19:12.010 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions","hash":"ddd5e86e3e10aceab091942ecb4f4b9a64529afa684c7fa55de4c0906afd0b6c"}
+2024-05-23 09:19:12.010 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out","hash":"2eb4a079f5bd661bc267a1e418290959abc7d60bf1ac663e2d987e1527a64780"}
+2024-05-23 09:19:12.011 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.89.2024050109/translations","hash":"627d8c114b8c29ce12029feca4ebdef80799943a74d9974d7fae98e03f5e41ef"}
+2024-05-23 09:19:12.012 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs/20240522T135711","hash":"19587bbb60bd3e1eef58d5f8e727d9a4b28903e45ad97e42fb557055d08afafe"}
+2024-05-23 09:19:12.013 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"94255a325aafc8281f9057034c4522588c49cdf66caa131c8d1d18eced5b8950"}
+2024-05-23 09:19:12.013 [info] Waiting on semaphore to be released 6
+2024-05-23 09:19:12.210 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/cursor-always-local","hash":"3a9e6cbbb1aae1cc810fbb99dc5cd29118b2c23bb120bcfabbbbe0916d610b51"}
+2024-05-23 09:19:12.211 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/configuration-editing","hash":"e9f3db63e83e3959e65c6e9dc72994fc335567df6e81a4000a244badae585f60"}
+2024-05-23 09:19:12.212 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/typescript-language-features","hash":"ae8303198eb35d3bff85b2b0137ef3a41293be88b114fca0a0cba63d44c72822"}
+2024-05-23 09:19:12.212 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/git","hash":"8fe7af939316ed01bb7677b9949963acd50bcd43dd714ce12c0c39792fd4291f"}
+2024-05-23 09:19:12.212 [info] Waiting on semaphore to be released 9
+2024-05-23 09:19:12.410 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs","hash":"02609e51cccdcecc8da0b8ebfefae6530dc5e67155443b342062bc7e8a1ea841"}
+2024-05-23 09:19:12.411 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/microsoft-authentication","hash":"74898c1389d6e318a851b8eea4fb5a00cecaa577ab3700ad84c577c3e4d7bf03"}
+2024-05-23 09:19:12.412 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git","hash":"1ee65530f5eec81f1d3070d827b764244830d82823cb670455491af6ad0e4c36"}
+2024-05-23 09:19:12.412 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/github","hash":"3ce48be7e2aec68275d2d22824880747b478656f103502d2ab576b4c3fd8f7c0"}
+2024-05-23 09:19:12.412 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs/20240522T135711/exthost1","hash":"37b84fb1fde9f36628345d43059ce9801605693ea4808e6fce37bee214cf9351"}
+2024-05-23 09:19:12.413 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.89.2024050109/translations/extensions","hash":"fae36271d8672521889362033338e7a9097b6e9b380d032f49b49d8742090b9c"}
+2024-05-23 09:19:12.413 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"0171c56901de6a39abc4b05442215facc993c3338e3609c50ef51060a62f4fec"}
+2024-05-23 09:19:12.415 [info] Waiting on semaphore to be released 11
+2024-05-23 09:19:12.610 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/cursor-always-local/src","hash":"fe783c3a37e8376d7a04d46dabcf843e6e9fc5af9cd0404f4213ff216b452ede"}
+2024-05-23 09:19:12.612 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/typescript-language-features/dist","hash":"3bbf6caae677b74e49b4de427f84db296abea8354337c15c2a609aa93039ad80"}
+2024-05-23 09:19:12.613 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/git/resources","hash":"3f43e669ffa3b524c65f9c26749ce4d9d16106cc9405ed954fe2f04f3fd23304"}
+2024-05-23 09:19:12.614 [info] Waiting on semaphore to be released 10
+2024-05-23 09:19:12.810 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/github/testWorkspace","hash":"c336f9eaf598ccbf79e51a476acadd1b0f943a62f670f0c613461dedcd777b76"}
+2024-05-23 09:19:12.811 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/resources","hash":"3f43e669ffa3b524c65f9c26749ce4d9d16106cc9405ed954fe2f04f3fd23304"}
+2024-05-23 09:19:12.811 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/platform","hash":"396f0bbbee1a146c3800e19469944198540777529d01c49c2c7aea3967cf82e8"}
+2024-05-23 09:19:12.812 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/microsoft-authentication/media","hash":"7d575f142414d3e58d8fb35dee30b710ae125d7bbe296814da47d8821d42cc05"}
+2024-05-23 09:19:12.812 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs/20240522T135711/exthost1/vscode.git","hash":"cb230248b3001028d72ef734a37aa6d7cfb02d07b6b54a8b3e0171b1c1fa7ad4"}
+2024-05-23 09:19:12.813 [info] Waiting on semaphore to be released 8
+2024-05-23 09:19:13.011 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/cursor-always-local/src/commands","hash":"0d6e6037a5e1e8402544b383537c766f31601068bb67c7f620da1b8e066e953e"}
+2024-05-23 09:19:13.012 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/git/resources/icons","hash":"572e546d1d60f13792a54b976a8e0dd827459f773787a4f6210aa621795231e0"}
+2024-05-23 09:19:13.012 [info] Waiting on semaphore to be released 7
+2024-05-23 09:19:13.212 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/github/testWorkspace/docs","hash":"d295f960e6fb268f6f6cb465bd18c6471a5bcf70272093a6151f8ee3f0323e0c"}
+2024-05-23 09:19:13.212 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/platform/terminal","hash":"945e4b2fecec59ff5e34dbdeafc5ef9e21b49faadf370808cb5761f64496d98b"}
+2024-05-23 09:19:13.213 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/resources/icons","hash":"572e546d1d60f13792a54b976a8e0dd827459f773787a4f6210aa621795231e0"}
+2024-05-23 09:19:13.213 [info] Waiting on semaphore to be released 5
+2024-05-23 09:19:13.411 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/git/resources/icons/light","hash":"9d8f283ccca7115734ba8654a9e233577aaa4b1e907a99c8aef4a4438c86b536"}
+2024-05-23 09:19:13.412 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/cursor-always-local/src/commands/cppUtils","hash":"506426c362066e847a260ab14e63d38059adf1773871727427426cd70b5cb0cc"}
+2024-05-23 09:19:13.412 [info] Waiting on semaphore to be released 5
+2024-05-23 09:19:13.611 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE","hash":"74313561d1897af3dc03f4fae174960d28968f92b49230523faca462b848db60"}
+2024-05-23 09:19:13.612 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/resources/icons/light","hash":"9d8f283ccca7115734ba8654a9e233577aaa4b1e907a99c8aef4a4438c86b536"}
+2024-05-23 09:19:13.613 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/platform/terminal/node","hash":"53bf823c06d31a5b40b73ef85e752845d6e04337be99176d17690c14512c95fd"}
+2024-05-23 09:19:13.613 [info] Waiting on semaphore to be released 5
+2024-05-23 09:19:13.812 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/cursor-always-local/src/commands/cppUtils/mergedDiffUtils","hash":"a4dbf8c3fa09b43db0997b1eb1d6d70d6afef7a1469e111b13b361be5b03df47"}
+2024-05-23 09:19:13.812 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/bin/2dd5b2855ac68f3a3d3babee87d22b399a9db7d0/extensions/cursor-always-local/src/commands/cppUtils/diff","hash":"00ad3f7a5971cf3c86677ccaa915d945b68b54729248d050baf8c79611deb2f0"}
+2024-05-23 09:19:13.813 [info] Waiting on semaphore to be released 5
+2024-05-23 09:19:14.011 [info] Waiting on semaphore to be released 1
+2024-05-23 09:19:14.214 [info] setting numJobsToGo to 15
+2024-05-23 09:19:14.214 [info] [startSync]: numJobs: 15
+2024-05-23 09:19:14.214 [info] Uploading 15 files.
+2024-05-23 09:27:57.565 [info] Finished indexing repository.
+2024-05-23 09:27:57.566 [info] Indexing job successfully done or aborted.
+2024-05-23 09:29:09.411 [info] Creating merkle client.
+2024-05-23 09:29:09.411 [info] Done creating merkle client.
+2024-05-23 09:29:09.411 [info] Doing a startup handshake.
+2024-05-23 09:29:09.613 [info] Finished initializing merkle tree in 201.45479499921203 ms.
+2024-05-23 09:29:09.614 [info] Doing the initial handshake with hash: 9aa3fd5c41c34d32c95949374fca4f77b7e51def4607373a8fc0a450d4c252e6
+2024-05-23 09:29:09.615 [info] Handshake start
+2024-05-23 09:29:09.822 [info] Handshake timing: 207.7023929990828
+2024-05-23 09:29:09.822 [info] Handshake result:
+2024-05-23 09:29:09.822 [info] Starting fast remote sync.
+2024-05-23 09:29:09.823 [info] Total num embeddable files: 1054
+2024-05-23 09:29:09.823 [info] Root hash: 9aa3fd5c41c34d32c95949374fca4f77b7e51def4607373a8fc0a450d4c252e6
+2024-05-23 09:29:09.823 [info] In the out of sync case.
+2024-05-23 09:29:09.823 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"9aa3fd5c41c34d32c95949374fca4f77b7e51def4607373a8fc0a450d4c252e6"}
+2024-05-23 09:29:09.824 [info] Waiting on semaphore to be released 1
+2024-05-23 09:29:10.023 [info] Waiting on semaphore to be released 1
+2024-05-23 09:29:10.223 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"c676ee260804bae566cd357eb8293384521b198edce0b6c15f08bb516e790255"}
+2024-05-23 09:29:10.224 [info] Waiting on semaphore to be released 1
+2024-05-23 09:29:10.424 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"478d4278bb7843d4681330951bc68d2a70d6bc94825ada3e8649b6a4cdb7722f"}
+2024-05-23 09:29:10.424 [info] Waiting on semaphore to be released 1
+2024-05-23 09:29:10.623 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"7ad89d0f5c31971233c29a0db33aac64cb1ebde4bd6fd22eea11226f6df7d7dd"}
+2024-05-23 09:29:10.624 [info] Waiting on semaphore to be released 1
+2024-05-23 09:29:10.823 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"6f1fe8143f8f09afcec1228bdd1770f5ceb40029e795f2d487047cb25e68aef1"}
+2024-05-23 09:29:10.824 [info] Waiting on semaphore to be released 1
+2024-05-23 09:29:11.024 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"77f9c6dda3c5e3276261802769241dcec56f2ab0ce27c404b14d9df8ed316ceb"}
+2024-05-23 09:29:11.025 [info] Waiting on semaphore to be released 1
+2024-05-23 09:29:11.225 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"110178475eb1e0ffd3f26298cf44771ccb7833d9c191d1cd9b816ebf57bb5375"}
+2024-05-23 09:29:11.225 [info] Waiting on semaphore to be released 1
+2024-05-23 09:29:11.424 [info] setting numJobsToGo to 1
+2024-05-23 09:29:11.425 [info] [startSync]: numJobs: 1
+2024-05-23 09:29:11.425 [info] Uploading 1 files.
+2024-05-23 09:30:58.574 [info] Finished indexing repository.
+2024-05-23 09:30:58.575 [info] Indexing job successfully done or aborted.
+2024-05-23 09:39:09.392 [info] Creating merkle client.
+2024-05-23 09:39:09.392 [info] Done creating merkle client.
+2024-05-23 09:39:09.392 [info] Doing a startup handshake.
+2024-05-23 09:39:09.606 [info] Finished initializing merkle tree in 214.52795299887657 ms.
+2024-05-23 09:39:09.607 [info] Doing the initial handshake with hash: 33317cb38f7b93d0b70ff532aa21d02850b67c1feab111097739884e4380d1e0
+2024-05-23 09:39:09.614 [info] Handshake start
+2024-05-23 09:39:10.328 [info] Handshake timing: 720.2284180000424
+2024-05-23 09:39:10.328 [info] Handshake result:
+2024-05-23 09:39:10.328 [info] Starting fast remote sync.
+2024-05-23 09:39:10.329 [info] Total num embeddable files: 1059
+2024-05-23 09:39:10.329 [info] Root hash: 33317cb38f7b93d0b70ff532aa21d02850b67c1feab111097739884e4380d1e0
+2024-05-23 09:39:10.329 [info] In the out of sync case.
+2024-05-23 09:39:10.330 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"33317cb38f7b93d0b70ff532aa21d02850b67c1feab111097739884e4380d1e0"}
+2024-05-23 09:39:10.331 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:10.531 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:10.731 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"dfb488d0ac394b52bdb9941cb47b850d890de01fa05a973d89a29fdbd3d76d8c"}
+2024-05-23 09:39:10.733 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project","hash":"444bb1e3c44aa3463a266985739780cff569f57d8f8e509cbcc44af535ae49b1"}
+2024-05-23 09:39:10.734 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server","hash":"c968c1b86fff79c6386682a884b6768347c3cf33cacdc985d5df048017a880e4"}
+2024-05-23 09:39:10.734 [info] Waiting on semaphore to be released 3
+2024-05-23 09:39:10.932 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"250da461715ae6785a35160245cc0cd76f1cafbaae0bfee8f5ad34ae846d62cf"}
+2024-05-23 09:39:10.933 [info] Waiting on semaphore to be released 3
+2024-05-23 09:39:11.133 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"05f7fa86d8eabe72903ac8c18a955c846dccc5cb003d6fac6837fb08fae9df34"}
+2024-05-23 09:39:11.133 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/resources","hash":"ac30b4affaa0af73da6bd709fe5177857e5ce02f371f53c3d821d656c1e7e637"}
+2024-05-23 09:39:11.134 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data","hash":"5d912571f3cb258b09693e929a4bf69aa022b8921a492938de37581957212a4f"}
+2024-05-23 09:39:11.134 [info] Waiting on semaphore to be released 3
+2024-05-23 09:39:11.333 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"ebd18aa8c3dcff26c69b79edb1749c3f23a72d12438fc380d39a5071d42415d8"}
+2024-05-23 09:39:11.334 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/User","hash":"2528eb5e9c9b8518ff2ff570332ad5ee3ca027605d9e9559db6062e073b34cb4"}
+2024-05-23 09:39:11.335 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/resources/views","hash":"97665fb9ff9588544d1e003f7c9fa2443b9c4cf34903a984bbc7ad99fa979640"}
+2024-05-23 09:39:11.336 [info] Waiting on semaphore to be released 3
+2024-05-23 09:39:11.533 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"834141e33efad8e9d7241201e90b79f807bf3511ac01ee7601bf50e722fc966a"}
+2024-05-23 09:39:11.534 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/User/History","hash":"973a0f39e9bdc8ff5e0438d2cc0db8c4063a4b7ef4af3c305ac1470f6d5114b8"}
+2024-05-23 09:39:11.535 [info] Waiting on semaphore to be released 3
+2024-05-23 09:39:11.733 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"b9c1dd331480dbb86a354370e1b80cd2c113a9c11d9565cb3fe0d65fbac508ae"}
+2024-05-23 09:39:11.733 [info] Waiting on semaphore to be released 2
+2024-05-23 09:39:11.933 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:12.133 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:12.333 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:12.534 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:12.734 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:12.934 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:13.134 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:13.334 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:13.535 [info] Waiting on semaphore to be released 1
+2024-05-23 09:39:13.737 [info] setting numJobsToGo to 7
+2024-05-23 09:39:13.737 [info] [startSync]: numJobs: 7
+2024-05-23 09:39:13.737 [info] Uploading 7 files.
+2024-05-23 09:41:58.374 [info] Finished indexing repository.
+2024-05-23 09:41:58.374 [info] Indexing job successfully done or aborted.
+2024-05-23 09:49:09.374 [info] Creating merkle client.
+2024-05-23 09:49:09.375 [info] Done creating merkle client.
+2024-05-23 09:49:09.375 [info] Doing a startup handshake.
+2024-05-23 09:49:09.525 [info] Finished initializing merkle tree in 150.3995729982853 ms.
+2024-05-23 09:49:09.526 [info] Doing the initial handshake with hash: 80fe2aafd6fa1f32af872ef1ff4d06a062d2b3a0651c21fe0b2d444d2003a09f
+2024-05-23 09:49:09.531 [info] Handshake start
+2024-05-23 09:49:10.244 [info] Handshake timing: 718.2399920001626
+2024-05-23 09:49:10.244 [info] Handshake result:
+2024-05-23 09:49:10.245 [info] Starting fast remote sync.
+2024-05-23 09:49:10.245 [info] Total num embeddable files: 1060
+2024-05-23 09:49:10.246 [info] Root hash: 80fe2aafd6fa1f32af872ef1ff4d06a062d2b3a0651c21fe0b2d444d2003a09f
+2024-05-23 09:49:10.246 [info] In the out of sync case.
+2024-05-23 09:49:10.246 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"80fe2aafd6fa1f32af872ef1ff4d06a062d2b3a0651c21fe0b2d444d2003a09f"}
+2024-05-23 09:49:10.247 [info] Waiting on semaphore to be released 1
+2024-05-23 09:49:10.447 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"40f478613e995a5ec51eeeaebe4d2efaacd554c83a0dacd80a064b255e36ea0e"}
+2024-05-23 09:49:10.448 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project","hash":"f2aa06fae836c4021b87f7db9582b44f3c77501bb573a663e257aef66543500f"}
+2024-05-23 09:49:10.448 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server","hash":"69f5c1d7383b6aebde2fd71d262e1f6c9b2b4859bb3c081c6d417d3d7f1c1cde"}
+2024-05-23 09:49:10.449 [info] Waiting on semaphore to be released 3
+2024-05-23 09:49:10.646 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/resources","hash":"31c1d8ae7d896cf2dbb0ab86567e61ea3e866ca7cd014f77a6671808d003cd58"}
+2024-05-23 09:49:10.647 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data","hash":"1b1d6fe2f42543a2b2fe92b270fc659340c83f0534a577bb76d78078ff34f53c"}
+2024-05-23 09:49:10.648 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"e254e977cb8ddb3429f5f85f68488d0f94e3e823eb1b50bfbe583f2fa3d24390"}
+2024-05-23 09:49:10.648 [info] Waiting on semaphore to be released 3
+2024-05-23 09:49:10.847 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/resources/views","hash":"6653b152b454484f98e71b4f0e5d857e9c1db3a8d76534048e8f26d93d29ba70"}
+2024-05-23 09:49:10.848 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/User","hash":"3f12a649f6c7305b2e5a5948125ed462d42e5521888f976a38a226dd075788f4"}
+2024-05-23 09:49:10.848 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User","hash":"16aa331f39038e095e3798b8f7ed175c495b2226d47d5bfeb4c39cbcfa9d2f80"}
+2024-05-23 09:49:10.849 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"1d2cf5f8e0e8a63ebe94980046be75e5c9390b8d68b3e626386d7eb9567d3998"}
+2024-05-23 09:49:10.849 [info] Waiting on semaphore to be released 4
+2024-05-23 09:49:11.047 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/User/History","hash":"27205e4643dc5d0d85d050d3ec0d34661374dbf7baa90288c5b45cd590fba044"}
+2024-05-23 09:49:11.047 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"1a4cd8248c20ecb046eba145e8b1c5449eff5c498e830406204bba42d0b37934"}
+2024-05-23 09:49:11.048 [info] Waiting on semaphore to be released 3
+2024-05-23 09:49:11.246 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"581018691dd882d305cd261189de72e411ea215791a11b547063734ab0ed96f7"}
+2024-05-23 09:49:11.247 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/User/History/-10f7ffca","hash":"cb62d65339f13d0f953dd5d0f5faa54058fb3537525a8770d2d2c16f3a987dc2"}
+2024-05-23 09:49:11.247 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User/workspaceStorage","hash":"6d919c41f628c2a83d943b5fbad5dc741243ecedf58ea85106c94cbbdede0965"}
+2024-05-23 09:49:11.247 [info] Waiting on semaphore to be released 3
+2024-05-23 09:49:11.447 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa","hash":"aa8991529fcb7a3408dc1a5f608cf1dd895270db677d84acaa392e6ae359bf3b"}
+2024-05-23 09:49:11.448 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"a67e21547f24d5b1611b1dfa414768a04083f1e15b114fded05e59964b65bfb5"}
+2024-05-23 09:49:11.448 [info] Waiting on semaphore to be released 2
+2024-05-23 09:49:11.648 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/anysphere.cursor-retrieval","hash":"ee2d6b16462e91a0d02e90b497373547186d833532276b690669b3b2fe98b556"}
+2024-05-23 09:49:11.649 [info] Waiting on semaphore to be released 1
+2024-05-23 09:49:11.848 [info] setting numJobsToGo to 4
+2024-05-23 09:49:11.848 [info] [startSync]: numJobs: 4
+2024-05-23 09:49:11.848 [info] Uploading 4 files.
+2024-05-23 09:52:58.216 [info] Finished indexing repository.
+2024-05-23 09:52:58.216 [info] Indexing job successfully done or aborted.
+2024-05-23 09:59:09.357 [info] Creating merkle client.
+2024-05-23 09:59:09.357 [info] Done creating merkle client.
+2024-05-23 09:59:09.357 [info] Doing a startup handshake.
+2024-05-23 09:59:09.535 [info] Finished initializing merkle tree in 178.14412200078368 ms.
+2024-05-23 09:59:09.537 [info] Doing the initial handshake with hash: 4322a8e42943a6ec71e271a7d813c037f25ff70bdd311cbdea49c266791d2de9
+2024-05-23 09:59:09.542 [info] Handshake start
+2024-05-23 09:59:10.246 [info] Handshake timing: 709.1845800019801
+2024-05-23 09:59:10.247 [info] Handshake result:
+2024-05-23 09:59:10.247 [info] Starting fast remote sync.
+2024-05-23 09:59:10.248 [info] Total num embeddable files: 1060
+2024-05-23 09:59:10.248 [info] Root hash: 4322a8e42943a6ec71e271a7d813c037f25ff70bdd311cbdea49c266791d2de9
+2024-05-23 09:59:10.248 [info] In the out of sync case.
+2024-05-23 09:59:10.248 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"4322a8e42943a6ec71e271a7d813c037f25ff70bdd311cbdea49c266791d2de9"}
+2024-05-23 09:59:10.249 [info] Waiting on semaphore to be released 1
+2024-05-23 09:59:10.449 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"4ad22d77c8f7bbd13fe5aaf0c9b1246330b988868c9fd47fb270dfeef0d4cb5a"}
+2024-05-23 09:59:10.450 [info] Waiting on semaphore to be released 1
+2024-05-23 09:59:10.649 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"c94c6acb91b7bdbd183a2b41ebcedd270889490b690b89c9c6a9b6fd34eff049"}
+2024-05-23 09:59:10.650 [info] Waiting on semaphore to be released 1
+2024-05-23 09:59:10.850 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User","hash":"16aa331f39038e095e3798b8f7ed175c495b2226d47d5bfeb4c39cbcfa9d2f80"}
+2024-05-23 09:59:10.851 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"a16fbf9ce054260ce8ff275607df1b4c49aee40ddd36c68e962e0b0b2f0c7185"}
+2024-05-23 09:59:10.851 [info] Waiting on semaphore to be released 2
+2024-05-23 09:59:11.050 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"660ccac00a6678a1845445bf1c6752edf2362482b3804d4a9697b1f06f993405"}
+2024-05-23 09:59:11.051 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User/workspaceStorage","hash":"6d919c41f628c2a83d943b5fbad5dc741243ecedf58ea85106c94cbbdede0965"}
+2024-05-23 09:59:11.051 [info] Waiting on semaphore to be released 2
+2024-05-23 09:59:11.250 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"0bee7045725a010894393eca422cb569916651d9e0f2befa4dc1119421cf7811"}
+2024-05-23 09:59:11.251 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa","hash":"aa8991529fcb7a3408dc1a5f608cf1dd895270db677d84acaa392e6ae359bf3b"}
+2024-05-23 09:59:11.251 [info] Waiting on semaphore to be released 2
+2024-05-23 09:59:11.450 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/anysphere.cursor-retrieval","hash":"ee2d6b16462e91a0d02e90b497373547186d833532276b690669b3b2fe98b556"}
+2024-05-23 09:59:11.451 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"8154248c15521e892a10b8558f43d05d39cd172e797dfdf622d9ad423da9f4eb"}
+2024-05-23 09:59:11.451 [info] Waiting on semaphore to be released 2
+2024-05-23 09:59:11.650 [info] setting numJobsToGo to 2
+2024-05-23 09:59:11.650 [info] [startSync]: numJobs: 2
+2024-05-23 09:59:11.650 [info] Uploading 2 files.
+2024-05-23 09:59:58.471 [info] Finished indexing repository.
+2024-05-23 09:59:58.471 [info] Indexing job successfully done or aborted.
+2024-05-23 10:09:09.340 [info] Creating merkle client.
+2024-05-23 10:09:09.340 [info] Done creating merkle client.
+2024-05-23 10:09:09.340 [info] Doing a startup handshake.
+2024-05-23 10:09:09.515 [info] Finished initializing merkle tree in 175.35665699839592 ms.
+2024-05-23 10:09:09.516 [info] Doing the initial handshake with hash: ddf73d7fa0566f47e6932ef4102e03fdc587b331d9fa29f0ad4349b2f101c228
+2024-05-23 10:09:09.521 [info] Handshake start
+2024-05-23 10:09:12.195 [info] Handshake start
+2024-05-23 10:09:12.379 [info] Handshake timing: 184.82832899689674
+2024-05-23 10:09:12.379 [info] Handshake result:
+2024-05-23 10:09:12.379 [info] Starting fast remote sync.
+2024-05-23 10:09:12.380 [info] Total num embeddable files: 1060
+2024-05-23 10:09:12.380 [info] Root hash: ddf73d7fa0566f47e6932ef4102e03fdc587b331d9fa29f0ad4349b2f101c228
+2024-05-23 10:09:12.380 [info] In the out of sync case.
+2024-05-23 10:09:12.381 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"ddf73d7fa0566f47e6932ef4102e03fdc587b331d9fa29f0ad4349b2f101c228"}
+2024-05-23 10:09:12.381 [info] Waiting on semaphore to be released 1
+2024-05-23 10:09:12.581 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"50b5af0f4b7e0503239bfca80f15166aa3ffaaa8a7c5cea6170a76d5f80be906"}
+2024-05-23 10:09:12.582 [info] Waiting on semaphore to be released 1
+2024-05-23 10:09:12.781 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"a5af40e2e7daf79ea60cd405a03d2fd14e31d6350ccd9b11b4b345b0992fa2aa"}
+2024-05-23 10:09:12.782 [info] Waiting on semaphore to be released 1
+2024-05-23 10:09:12.982 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"4f8d1a9231a4fe78973398ff3cea2eb87269dfb9c7bddba901b81c52bf57fa98"}
+2024-05-23 10:09:12.983 [info] Waiting on semaphore to be released 1
+2024-05-23 10:09:13.183 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"c53fb8c81c30d3eb62a6359dda71e7f49bead2c2684b897df532739d06649734"}
+2024-05-23 10:09:13.184 [info] Waiting on semaphore to be released 1
+2024-05-23 10:09:13.382 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"a5cea9432dd37972ea70ef4208d385de720b1007f29a799fb944c92bdce445ea"}
+2024-05-23 10:09:13.383 [info] Waiting on semaphore to be released 1
+2024-05-23 10:09:13.582 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"c0f81b781f58dc3c0617770d709523af27a681c04aa5f81e49997950929e3370"}
+2024-05-23 10:09:13.583 [info] Waiting on semaphore to be released 1
+2024-05-23 10:09:13.783 [info] setting numJobsToGo to 1
+2024-05-23 10:09:13.783 [info] [startSync]: numJobs: 1
+2024-05-23 10:09:13.783 [info] Uploading 1 files.
+2024-05-23 10:09:58.392 [info] Finished indexing repository.
+2024-05-23 10:09:58.393 [info] Indexing job successfully done or aborted.
+2024-05-23 10:19:09.325 [info] Creating merkle client.
+2024-05-23 10:19:09.325 [info] Done creating merkle client.
+2024-05-23 10:19:09.325 [info] Doing a startup handshake.
+2024-05-23 10:19:09.471 [info] Finished initializing merkle tree in 145.96958100050688 ms.
+2024-05-23 10:19:09.471 [info] Doing the initial handshake with hash: cb05d056642491bf642772d470f2a2b051b34a4c9de50461875c648fb08e63c4
+2024-05-23 10:19:09.474 [info] Handshake start
+2024-05-23 10:19:10.187 [info] Handshake timing: 715.3520959988236
+2024-05-23 10:19:10.187 [info] Handshake result:
+2024-05-23 10:19:10.187 [info] Starting fast remote sync.
+2024-05-23 10:19:10.188 [info] Total num embeddable files: 1063
+2024-05-23 10:19:10.188 [info] Root hash: cb05d056642491bf642772d470f2a2b051b34a4c9de50461875c648fb08e63c4
+2024-05-23 10:19:10.188 [info] In the out of sync case.
+2024-05-23 10:19:10.188 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"cb05d056642491bf642772d470f2a2b051b34a4c9de50461875c648fb08e63c4"}
+2024-05-23 10:19:10.189 [info] Waiting on semaphore to be released 1
+2024-05-23 10:19:10.388 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"72c76cc44d54227cabee750d974fb24926c7776e7db33dc35fe36e432d10f415"}
+2024-05-23 10:19:10.389 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project","hash":"839dae84fa64bf877197fccacc20cef57de4e074c80eff9f8fd47d6d77a93230"}
+2024-05-23 10:19:10.389 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server","hash":"33e41588c0e4705455c952297a10085e1e12817aec4889c603ee4fc52f7c1238"}
+2024-05-23 10:19:10.390 [info] Waiting on semaphore to be released 3
+2024-05-23 10:19:10.591 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/resources","hash":"70a04d5cd3fdacab61efb81d31424c762a618d5dbe6da4176daf8e774e210bec"}
+2024-05-23 10:19:10.592 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"8fbd801654b0f1d2b864274f50ba08f22d46739f87db6ddac42af03dc562a572"}
+2024-05-23 10:19:10.592 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data","hash":"783dee8279b33ba1a5f78dcdfa7c683acbce8f21a58bc4c666bdb4b22cd3f67a"}
+2024-05-23 10:19:10.593 [info] Waiting on semaphore to be released 3
+2024-05-23 10:19:10.791 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"4e219e6fdd95e3ce6d03d86e8cf7d78f376e940313b058fd394289c53b1c5c38"}
+2024-05-23 10:19:10.792 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/resources/views","hash":"6549d81537a7636f84a008aa32a9d59bddd4805e7a368c1795fd915474dffe68"}
+2024-05-23 10:19:10.793 [info] Waiting on semaphore to be released 3
+2024-05-23 10:19:10.992 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"3592eba49b8c20c9f8c70e342ec76ba51a4909d3a3769f322a5ee63e7a6af3df"}
+2024-05-23 10:19:10.993 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs","hash":"a72364f24b69b8323c721dd9a6dd64767148b319ea0bc09cd64bef4e46e26e42"}
+2024-05-23 10:19:10.993 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/User","hash":"1c5c3cb88959f4038aeb263a31a79282bc1e1a999e5d1c6edc288cd6c2766029"}
+2024-05-23 10:19:10.995 [info] Waiting on semaphore to be released 3
+2024-05-23 10:19:11.193 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs/20240522T135711","hash":"abc93fe4bada66d118293d5c852da6d27cc8b13e4f8a0fa61e6972566c1a6b50"}
+2024-05-23 10:19:11.194 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"385e0aaa5f73f76e1b789fbc73f9e5a655befaa3ee5877acf453b88525f70bf4"}
+2024-05-23 10:19:11.194 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/User/History","hash":"f2bbe16abfe8bb433708e022cce012d00c1181b7efff24c104eccf2979e6b013"}
+2024-05-23 10:19:11.195 [info] Waiting on semaphore to be released 3
+2024-05-23 10:19:11.393 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/User/History/-10f7ffca","hash":"feef2693c9d1bbd751cf402968253baa6470d633be30f33b7031bac145ac21d4"}
+2024-05-23 10:19:11.394 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"4f890e968c8759608fabfa69d095a6c5daab78976103794f727a4d764b148afe"}
+2024-05-23 10:19:11.395 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs/20240522T135711/exthost1","hash":"aabe5456ba9fefc3d720fd63e9c79782b704490aa0e1010f7fa36529684893b6"}
+2024-05-23 10:19:11.395 [info] Waiting on semaphore to be released 3
+2024-05-23 10:19:11.593 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs/20240522T135711/exthost1/vscode.git","hash":"8864d9475653429c94446d2b5f9a2be167a1a8d49885f822f0873d2c38437706"}
+2024-05-23 10:19:11.595 [info] Waiting on semaphore to be released 1
+2024-05-23 10:19:11.793 [info] setting numJobsToGo to 7
+2024-05-23 10:19:11.793 [info] [startSync]: numJobs: 7
+2024-05-23 10:19:11.793 [info] Uploading 7 files.
+2024-05-23 10:21:57.972 [info] Finished indexing repository.
+2024-05-23 10:21:57.972 [info] Indexing job successfully done or aborted.
+2024-05-23 10:29:09.309 [info] Creating merkle client.
+2024-05-23 10:29:09.309 [info] Done creating merkle client.
+2024-05-23 10:29:09.309 [info] Doing a startup handshake.
+2024-05-23 10:29:09.456 [info] Finished initializing merkle tree in 146.52260100096464 ms.
+2024-05-23 10:29:09.457 [info] Doing the initial handshake with hash: 5671d86318da0942490279cfdfc2c7f1742f1f5dabaf6751aa9021cf4917ac4c
+2024-05-23 10:29:09.461 [info] Handshake start
+2024-05-23 10:29:12.224 [info] Handshake start
+2024-05-23 10:29:12.426 [info] Handshake timing: 202.51252499967813
+2024-05-23 10:29:12.426 [info] Handshake result:
+2024-05-23 10:29:12.426 [info] Starting fast remote sync.
+2024-05-23 10:29:12.427 [info] Total num embeddable files: 1063
+2024-05-23 10:29:12.427 [info] Root hash: 5671d86318da0942490279cfdfc2c7f1742f1f5dabaf6751aa9021cf4917ac4c
+2024-05-23 10:29:12.427 [info] In the out of sync case.
+2024-05-23 10:29:12.427 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"5671d86318da0942490279cfdfc2c7f1742f1f5dabaf6751aa9021cf4917ac4c"}
+2024-05-23 10:29:12.428 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:12.628 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:12.828 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"44323a71544b1c2f535b23eae429bef2e8e81461a3464cebb644b8089febec77"}
+2024-05-23 10:29:12.829 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project","hash":"839dae84fa64bf877197fccacc20cef57de4e074c80eff9f8fd47d6d77a93230"}
+2024-05-23 10:29:12.829 [info] Waiting on semaphore to be released 2
+2024-05-23 10:29:13.027 [info] Waiting on semaphore to be released 2
+2024-05-23 10:29:13.229 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/resources","hash":"70a04d5cd3fdacab61efb81d31424c762a618d5dbe6da4176daf8e774e210bec"}
+2024-05-23 10:29:13.230 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"08c74a2e4bc18403889160eb6452a4758b913102b6543a507d28a52d949ac755"}
+2024-05-23 10:29:13.231 [info] Waiting on semaphore to be released 2
+2024-05-23 10:29:13.428 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./test-project/resources/views","hash":"6549d81537a7636f84a008aa32a9d59bddd4805e7a368c1795fd915474dffe68"}
+2024-05-23 10:29:13.430 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"55435506c3f8a386b543d9b04717cfccadbef5884c5fc81bac879e59a0e16077"}
+2024-05-23 10:29:13.430 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User","hash":"e196dbc12a813aece76122a2844164355301c3c0a8ee0e248e1f8cc73c41d292"}
+2024-05-23 10:29:13.431 [info] Waiting on semaphore to be released 3
+2024-05-23 10:29:13.628 [info] Waiting on semaphore to be released 3
+2024-05-23 10:29:13.829 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User/workspaceStorage","hash":"af11d415e1eef629f713c437f1e61cd901d6e4b812cfcbfe5b47780691b9d3a1"}
+2024-05-23 10:29:13.831 [info] Waiting on semaphore to be released 2
+2024-05-23 10:29:14.028 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa","hash":"5c2f1d8b0d83a423050d7e042607214c7474c2699363ee55888052093d28ed10"}
+2024-05-23 10:29:14.029 [info] Waiting on semaphore to be released 2
+2024-05-23 10:29:14.229 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/anysphere.cursor-retrieval","hash":"b00b2ceeb2a34f3413b06f1b00c2159224dd9e6eb6493d28e4d02458a940cf3c"}
+2024-05-23 10:29:14.230 [info] Waiting on semaphore to be released 2
+2024-05-23 10:29:14.429 [info] Waiting on semaphore to be released 2
+2024-05-23 10:29:14.630 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:14.831 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:15.031 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:15.232 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:15.432 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:15.632 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:15.832 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"dd126e2dcf38f7d45b78929542c65f4b33c9f1794644264f68b58f642105c6e6"}
+2024-05-23 10:29:15.833 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:16.032 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"20c22c0b6b90f066158f53a273b816f8dfb8502eb6261a69b4dc66b498c43536"}
+2024-05-23 10:29:16.032 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:16.232 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"3d5b360644bd960885a94e7239e6c34dc56375324dca6dc643adbe5fc44720fb"}
+2024-05-23 10:29:16.233 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:16.432 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:16.632 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:16.831 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:17.032 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:17.232 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:17.433 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:17.633 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:17.834 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:18.035 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:18.235 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:18.436 [info] Waiting on semaphore to be released 1
+2024-05-23 10:29:18.636 [info] setting numJobsToGo to 3
+2024-05-23 10:29:18.636 [info] [startSync]: numJobs: 3
+2024-05-23 10:29:18.636 [info] Uploading 3 files.
+2024-05-23 10:32:58.273 [info] Finished indexing repository.
+2024-05-23 10:32:58.274 [info] Indexing job successfully done or aborted.
+2024-05-23 10:39:09.293 [info] Creating merkle client.
+2024-05-23 10:39:09.293 [info] Done creating merkle client.
+2024-05-23 10:39:09.293 [info] Doing a startup handshake.
+2024-05-23 10:39:09.517 [info] Finished initializing merkle tree in 224.11903700232506 ms.
+2024-05-23 10:39:09.519 [info] Doing the initial handshake with hash: ee76019017624665308d9fb074cc42b4f1bd9ff319428e2a53af86f3efba9963
+2024-05-23 10:39:09.521 [info] Handshake start
+2024-05-23 10:39:10.230 [info] Handshake timing: 711.2398979999125
+2024-05-23 10:39:10.230 [info] Handshake result:
+2024-05-23 10:39:10.231 [info] Starting fast remote sync.
+2024-05-23 10:39:10.231 [info] Total num embeddable files: 1063
+2024-05-23 10:39:10.232 [info] Root hash: ee76019017624665308d9fb074cc42b4f1bd9ff319428e2a53af86f3efba9963
+2024-05-23 10:39:10.232 [info] In the out of sync case.
+2024-05-23 10:39:10.232 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"ee76019017624665308d9fb074cc42b4f1bd9ff319428e2a53af86f3efba9963"}
+2024-05-23 10:39:10.233 [info] Waiting on semaphore to be released 1
+2024-05-23 10:39:10.433 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"f279b7a58007d8e04bdd39a35d6510ea9c220b0307e47b75df3066969dd78576"}
+2024-05-23 10:39:10.434 [info] Waiting on semaphore to be released 1
+2024-05-23 10:39:10.634 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"0080145216d6d8ba66856f9bae0aec2e0394d22077e8de91935fe6ffcfa54c6f"}
+2024-05-23 10:39:10.636 [info] Waiting on semaphore to be released 1
+2024-05-23 10:39:10.834 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"fae5b630bec9e39764fb336619d1d8c29ea93610b6630f1ac461de50ceec6087"}
+2024-05-23 10:39:10.836 [info] Waiting on semaphore to be released 1
+2024-05-23 10:39:11.034 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"8b64efe07881a14b08ffbe3aa97a9d81f4260a8adef59c5887fe186ea2a8b0d9"}
+2024-05-23 10:39:11.035 [info] Waiting on semaphore to be released 1
+2024-05-23 10:39:11.234 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"628dd0d3b7b3c527cc56b5d252908f4f46438168a9308a91fc7f5d865add7295"}
+2024-05-23 10:39:11.235 [info] Waiting on semaphore to be released 1
+2024-05-23 10:39:11.434 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"444d7250c0d1c23016e9eb7aebbfb6750227a55ffcc265f1e16b007c5dc81793"}
+2024-05-23 10:39:11.435 [info] Waiting on semaphore to be released 1
+2024-05-23 10:39:11.635 [info] Waiting on semaphore to be released 1
+2024-05-23 10:39:11.836 [info] setting numJobsToGo to 1
+2024-05-23 10:39:11.836 [info] [startSync]: numJobs: 1
+2024-05-23 10:39:11.836 [info] Uploading 1 files.
+2024-05-23 10:39:58.735 [info] Finished indexing repository.
+2024-05-23 10:39:58.735 [info] Indexing job successfully done or aborted.
+2024-05-23 10:49:09.278 [info] Creating merkle client.
+2024-05-23 10:49:09.278 [info] Done creating merkle client.
+2024-05-23 10:49:09.278 [info] Doing a startup handshake.
+2024-05-23 10:49:09.448 [info] Finished initializing merkle tree in 169.9298290014267 ms.
+2024-05-23 10:49:09.449 [info] Doing the initial handshake with hash: 031fcda9eb22fec155b84979d566155ded2c3c1c80be2e02fe8957b943cd92d6
+2024-05-23 10:49:09.451 [info] Handshake start
+2024-05-23 10:49:10.157 [info] Handshake timing: 708.3792469985783
+2024-05-23 10:49:10.157 [info] Handshake result:
+2024-05-23 10:49:10.158 [info] Starting fast remote sync.
+2024-05-23 10:49:10.158 [info] Total num embeddable files: 1063
+2024-05-23 10:49:10.158 [info] Root hash: 031fcda9eb22fec155b84979d566155ded2c3c1c80be2e02fe8957b943cd92d6
+2024-05-23 10:49:10.158 [info] In the out of sync case.
+2024-05-23 10:49:10.159 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"031fcda9eb22fec155b84979d566155ded2c3c1c80be2e02fe8957b943cd92d6"}
+2024-05-23 10:49:10.159 [info] Waiting on semaphore to be released 1
+2024-05-23 10:49:10.359 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"b21c8f96c732125f0ac488a0c17f4f191c5da493b35eb2ae1cb0ef872424c3a5"}
+2024-05-23 10:49:10.360 [info] Waiting on semaphore to be released 1
+2024-05-23 10:49:10.559 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"86795aa92e94ecbe85fd9e33610466549bab9406ff66b6b20738eb8a47e1782f"}
+2024-05-23 10:49:10.560 [info] Waiting on semaphore to be released 1
+2024-05-23 10:49:10.759 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"4423b62c03d5f41145ea1d1ccd9bef82fa01083ee7848f5541acda51099ffee2"}
+2024-05-23 10:49:10.760 [info] Waiting on semaphore to be released 1
+2024-05-23 10:49:10.959 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"aa20b8cbcd95136295774f70c1975b3356852f46a2665dffc31dd7ee125c5b63"}
+2024-05-23 10:49:10.960 [info] Waiting on semaphore to be released 1
+2024-05-23 10:49:11.159 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"cfcf8e9b2e4eef78bb36fd80c5a608108157c01fda0338f21804be6d097731dc"}
+2024-05-23 10:49:11.160 [info] Waiting on semaphore to be released 1
+2024-05-23 10:49:11.359 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"7f23b7eb9a5ebeac3608049790dd1879292033ba39a68a235f82d804a07d8e7d"}
+2024-05-23 10:49:11.361 [info] Waiting on semaphore to be released 1
+2024-05-23 10:49:11.560 [info] setting numJobsToGo to 1
+2024-05-23 10:49:11.560 [info] [startSync]: numJobs: 1
+2024-05-23 10:49:11.560 [info] Uploading 1 files.
+2024-05-23 10:49:58.757 [info] Finished indexing repository.
+2024-05-23 10:49:58.757 [info] Indexing job successfully done or aborted.
+2024-05-23 10:59:09.262 [info] Creating merkle client.
+2024-05-23 10:59:09.262 [info] Done creating merkle client.
+2024-05-23 10:59:09.262 [info] Doing a startup handshake.
+2024-05-23 10:59:09.446 [info] Finished initializing merkle tree in 183.7039999999106 ms.
+2024-05-23 10:59:09.447 [info] Doing the initial handshake with hash: d1038e51d4e716d8b8e1d2d00f21cc6693da1b97ab6b2c4960232a0694834f13
+2024-05-23 10:59:09.450 [info] Handshake start
+2024-05-23 10:59:10.159 [info] Handshake timing: 711.3994529992342
+2024-05-23 10:59:10.159 [info] Handshake result:
+2024-05-23 10:59:10.159 [info] Starting fast remote sync.
+2024-05-23 10:59:10.160 [info] Total num embeddable files: 1063
+2024-05-23 10:59:10.160 [info] Root hash: d1038e51d4e716d8b8e1d2d00f21cc6693da1b97ab6b2c4960232a0694834f13
+2024-05-23 10:59:10.160 [info] In the out of sync case.
+2024-05-23 10:59:10.160 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"d1038e51d4e716d8b8e1d2d00f21cc6693da1b97ab6b2c4960232a0694834f13"}
+2024-05-23 10:59:10.161 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:10.360 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"9e1030807a97ec3d69fb0df98e617227919f48a210cc8af28da15b01cb8bbc27"}
+2024-05-23 10:59:10.361 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:10.560 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:10.761 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:10.962 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:11.162 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:11.363 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:11.563 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:11.764 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:11.965 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:12.165 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:12.364 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:12.564 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:12.764 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"b863490618f557bec55867d2339b3a453588cf2dfa7ffb211fb2a8b1441f7012"}
+2024-05-23 10:59:12.765 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:12.965 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"1d6912d3adc4a47afb432bdb3b771002d560400cb57cb6a2f2ba3007fae1a248"}
+2024-05-23 10:59:12.966 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:13.166 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"045c5eb0f9380a39c23ca671c4be0642c39f5d4140988cb51a54c95048c32e47"}
+2024-05-23 10:59:13.166 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:13.366 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"3a68295646be6a7c5144a0b89bacb8d8fcbc65ac9df85513c85d08b02ac215cb"}
+2024-05-23 10:59:13.367 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:13.567 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"f14c5d17c55b1a812ce0e9a68fbf3e2d94529a091161dc00bc8c5f30cf25261a"}
+2024-05-23 10:59:13.568 [info] Waiting on semaphore to be released 1
+2024-05-23 10:59:13.768 [info] setting numJobsToGo to 1
+2024-05-23 10:59:13.768 [info] [startSync]: numJobs: 1
+2024-05-23 10:59:13.768 [info] Uploading 1 files.
+2024-05-23 10:59:58.815 [info] Finished indexing repository.
+2024-05-23 10:59:58.815 [info] Indexing job successfully done or aborted.
+2024-05-23 11:09:09.247 [info] Creating merkle client.
+2024-05-23 11:09:09.247 [info] Done creating merkle client.
+2024-05-23 11:09:09.247 [info] Doing a startup handshake.
+2024-05-23 11:09:09.416 [info] Finished initializing merkle tree in 169.16777300089598 ms.
+2024-05-23 11:09:09.417 [info] Doing the initial handshake with hash: 081191405c2b73c97fca17b2f124286bcf01fd20eef33eb350c95f38d37eb4f9
+2024-05-23 11:09:09.420 [info] Handshake start
+2024-05-23 11:09:10.113 [info] Handshake timing: 695.971600998193
+2024-05-23 11:09:10.114 [info] Handshake result:
+2024-05-23 11:09:10.114 [info] Starting fast remote sync.
+2024-05-23 11:09:10.114 [info] Total num embeddable files: 1063
+2024-05-23 11:09:10.115 [info] Root hash: 081191405c2b73c97fca17b2f124286bcf01fd20eef33eb350c95f38d37eb4f9
+2024-05-23 11:09:10.115 [info] In the out of sync case.
+2024-05-23 11:09:10.115 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"081191405c2b73c97fca17b2f124286bcf01fd20eef33eb350c95f38d37eb4f9"}
+2024-05-23 11:09:10.116 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:10.315 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"dbc532b7f97b67beb3645112760e215325758ae4ed6ce38e77c2c5c59bbbf55f"}
+2024-05-23 11:09:10.316 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:10.515 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"5e07fca588b7bf45334d62d97af57710cdee6ee06504779601fefa7ee8ebcf90"}
+2024-05-23 11:09:10.516 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:10.716 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:10.917 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:11.117 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:11.317 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:11.517 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:11.718 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:11.918 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:12.118 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:12.319 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:12.519 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:12.719 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:12.920 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"6585b5ed6a91fabe10a89d696773b821408eb4a8452a2ff750af19bd5c884f1f"}
+2024-05-23 11:09:12.922 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:13.120 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"37bc9d762cc48ccc90b387bcea4d2264f65571df2b904f2266e1129f05715112"}
+2024-05-23 11:09:13.120 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:13.320 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"a03e82f33359c9c128049e790d7c7bc14801a005804a7849d21ce9090bcd168d"}
+2024-05-23 11:09:13.321 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:13.521 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"ab3f7c844c2a3d73e843265c9773bc573625eb2af798db7bdac0c6e7eb2a0a92"}
+2024-05-23 11:09:13.522 [info] Waiting on semaphore to be released 1
+2024-05-23 11:09:13.722 [info] setting numJobsToGo to 1
+2024-05-23 11:09:13.722 [info] [startSync]: numJobs: 1
+2024-05-23 11:09:13.722 [info] Uploading 1 files.
+2024-05-23 11:10:00.129 [info] Finished indexing repository.
+2024-05-23 11:10:00.129 [info] Indexing job successfully done or aborted.
+2024-05-23 11:19:09.231 [info] Creating merkle client.
+2024-05-23 11:19:09.231 [info] Done creating merkle client.
+2024-05-23 11:19:09.231 [info] Doing a startup handshake.
+2024-05-23 11:19:09.410 [info] Finished initializing merkle tree in 178.6444690003991 ms.
+2024-05-23 11:19:09.411 [info] Doing the initial handshake with hash: 216481a6991f24c700bf1bb07a7741ad4c707371a4f6d4ed0f74a2153de8aff6
+2024-05-23 11:19:09.417 [info] Handshake start
+2024-05-23 11:19:10.097 [info] Handshake timing: 686.5771020017564
+2024-05-23 11:19:10.098 [info] Handshake result:
+2024-05-23 11:19:10.098 [info] Starting fast remote sync.
+2024-05-23 11:19:10.099 [info] Total num embeddable files: 1063
+2024-05-23 11:19:10.099 [info] Root hash: 216481a6991f24c700bf1bb07a7741ad4c707371a4f6d4ed0f74a2153de8aff6
+2024-05-23 11:19:10.099 [info] In the out of sync case.
+2024-05-23 11:19:10.100 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"216481a6991f24c700bf1bb07a7741ad4c707371a4f6d4ed0f74a2153de8aff6"}
+2024-05-23 11:19:10.100 [info] Waiting on semaphore to be released 1
+2024-05-23 11:19:10.300 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"2eb123d1e153cf45eb2fe162b855c77d253a4c4751a2d48ec46799b5b98b6940"}
+2024-05-23 11:19:10.301 [info] Waiting on semaphore to be released 1
+2024-05-23 11:19:10.500 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"0770a6efbcdfc41e0ec734e8d77b135189cc2cf2ab71e66ee188be07ab5746a1"}
+2024-05-23 11:19:10.501 [info] Waiting on semaphore to be released 1
+2024-05-23 11:19:10.701 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"c204000012afe3c620dbdc6b9f6e357c68ca65b5f42f3926c1f5867ded872c0f"}
+2024-05-23 11:19:10.702 [info] Waiting on semaphore to be released 1
+2024-05-23 11:19:10.901 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"523e14942f8a1ad1db38d6e0ce37c47b5454a5676904be986bfe91a3ff809a3b"}
+2024-05-23 11:19:10.902 [info] Waiting on semaphore to be released 1
+2024-05-23 11:19:11.101 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"3361793561da60f68d9c8ca5422be3bd622de9782314521fb0aaab7b2eac501b"}
+2024-05-23 11:19:11.102 [info] Waiting on semaphore to be released 1
+2024-05-23 11:19:11.301 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"eda1bafa5b47ae9e5b9e63108bb9ba04c9486c5b5a3bfce6283a8180e64bfb11"}
+2024-05-23 11:19:11.303 [info] Waiting on semaphore to be released 1
+2024-05-23 11:19:11.502 [info] Waiting on semaphore to be released 1
+2024-05-23 11:19:11.702 [info] setting numJobsToGo to 1
+2024-05-23 11:19:11.702 [info] [startSync]: numJobs: 1
+2024-05-23 11:19:11.703 [info] Uploading 1 files.
+2024-05-23 11:19:58.551 [info] Finished indexing repository.
+2024-05-23 11:19:58.551 [info] Indexing job successfully done or aborted.
+2024-05-23 11:29:09.216 [info] Creating merkle client.
+2024-05-23 11:29:09.216 [info] Done creating merkle client.
+2024-05-23 11:29:09.216 [info] Doing a startup handshake.
+2024-05-23 11:29:09.370 [info] Finished initializing merkle tree in 154.9499609991908 ms.
+2024-05-23 11:29:09.371 [info] Doing the initial handshake with hash: 59133c88c4a782143c1383c34e2242065864480120bbbb66db457386534b449a
+2024-05-23 11:29:09.374 [info] Handshake start
+2024-05-23 11:29:10.061 [info] Handshake timing: 689.6678970009089
+2024-05-23 11:29:10.061 [info] Handshake result:
+2024-05-23 11:29:10.061 [info] Starting fast remote sync.
+2024-05-23 11:29:10.062 [info] Total num embeddable files: 1063
+2024-05-23 11:29:10.062 [info] Root hash: 59133c88c4a782143c1383c34e2242065864480120bbbb66db457386534b449a
+2024-05-23 11:29:10.062 [info] In the out of sync case.
+2024-05-23 11:29:10.063 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"59133c88c4a782143c1383c34e2242065864480120bbbb66db457386534b449a"}
+2024-05-23 11:29:10.063 [info] Waiting on semaphore to be released 1
+2024-05-23 11:29:10.263 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"a150eeb5b80d516ab8389244f72d791235065d3a87ae46b8dcd71541b24b66fe"}
+2024-05-23 11:29:10.264 [info] Waiting on semaphore to be released 1
+2024-05-23 11:29:10.463 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"584aff036aeef2398773a452438137a8b83825975db6e1760eabd68c3f0ec9b6"}
+2024-05-23 11:29:10.464 [info] Waiting on semaphore to be released 1
+2024-05-23 11:29:10.663 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"a6c4a5d7965f85e6085dbe1aa332d17228bc8b6527698e1f8d3c5cfd5e5caeb1"}
+2024-05-23 11:29:10.664 [info] Waiting on semaphore to be released 1
+2024-05-23 11:29:10.863 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"c1c1a283d6391aa1dd88f693cecc86d27ba01e5cc1036071e4e0448fa19f25f9"}
+2024-05-23 11:29:10.864 [info] Waiting on semaphore to be released 1
+2024-05-23 11:29:11.063 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"07b3046bf218cd33e08bfedae59ce5b7253322092931b49b2249222b039aff82"}
+2024-05-23 11:29:11.064 [info] Waiting on semaphore to be released 1
+2024-05-23 11:29:11.264 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"1caf6335476e7bd3030bfa68d4943efbc9c2b385ed305c3438ce909179d7dcf5"}
+2024-05-23 11:29:11.265 [info] Waiting on semaphore to be released 1
+2024-05-23 11:29:11.464 [info] setting numJobsToGo to 1
+2024-05-23 11:29:11.464 [info] [startSync]: numJobs: 1
+2024-05-23 11:29:11.464 [info] Uploading 1 files.
+2024-05-23 11:30:01.636 [info] Finished indexing repository.
+2024-05-23 11:30:01.636 [info] Indexing job successfully done or aborted.
+2024-05-23 11:39:09.202 [info] Creating merkle client.
+2024-05-23 11:39:09.202 [info] Done creating merkle client.
+2024-05-23 11:39:09.202 [info] Doing a startup handshake.
+2024-05-23 11:39:09.352 [info] Finished initializing merkle tree in 150.83626399934292 ms.
+2024-05-23 11:39:09.353 [info] Doing the initial handshake with hash: fa848cfaec8649e9d1ce2668403f78f116052d6a315b16bd339623c031160927
+2024-05-23 11:39:09.356 [info] Handshake start
+2024-05-23 11:39:10.068 [info] Handshake timing: 714.7778640016913
+2024-05-23 11:39:10.068 [info] Handshake result:
+2024-05-23 11:39:10.068 [info] Starting fast remote sync.
+2024-05-23 11:39:10.069 [info] Total num embeddable files: 1063
+2024-05-23 11:39:10.069 [info] Root hash: fa848cfaec8649e9d1ce2668403f78f116052d6a315b16bd339623c031160927
+2024-05-23 11:39:10.069 [info] In the out of sync case.
+2024-05-23 11:39:10.069 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"fa848cfaec8649e9d1ce2668403f78f116052d6a315b16bd339623c031160927"}
+2024-05-23 11:39:10.070 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:10.270 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"5acd751483a9a5a176cb424099413a6b276395014ffeab5508c293e1c3efccfa"}
+2024-05-23 11:39:10.271 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:10.470 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"638f32b0b3628fb25d98e26aef7aec778af7dc0a42089ce65a58feedf3e81c80"}
+2024-05-23 11:39:10.470 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:10.670 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"483d3a3fbecea256b5fa825bf91f48dced073480de7d4dedb201bb81082d88c9"}
+2024-05-23 11:39:10.671 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:10.870 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"2f0c4476bf0d7fafc0e9997acf2c952815bc9c8d5507d111622120414f60b318"}
+2024-05-23 11:39:10.871 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:11.070 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:11.270 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:11.470 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:11.670 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:11.870 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:12.070 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:12.270 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:12.471 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:12.674 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:12.874 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:13.074 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:13.274 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"fb296e94bf69e2be518da29e9a292dcf5c0c2bf6b257816b16f3e20a345a2a15"}
+2024-05-23 11:39:13.275 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:13.474 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:13.674 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:13.874 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:14.075 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:14.275 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:14.476 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:14.677 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:14.878 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:15.078 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:15.279 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:15.479 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:15.679 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"aa3380f26817fcab5acfc364903b4df9400ab1ff35fcd923dce65b44e0eb909b"}
+2024-05-23 11:39:15.680 [info] Waiting on semaphore to be released 1
+2024-05-23 11:39:15.880 [info] setting numJobsToGo to 1
+2024-05-23 11:39:15.880 [info] [startSync]: numJobs: 1
+2024-05-23 11:39:15.880 [info] Uploading 1 files.
+2024-05-23 11:39:58.724 [info] Finished indexing repository.
+2024-05-23 11:39:58.725 [info] Indexing job successfully done or aborted.
+2024-05-23 11:49:09.188 [info] Creating merkle client.
+2024-05-23 11:49:09.188 [info] Done creating merkle client.
+2024-05-23 11:49:09.188 [info] Doing a startup handshake.
+2024-05-23 11:49:09.380 [info] Finished initializing merkle tree in 192.1748970001936 ms.
+2024-05-23 11:49:09.381 [info] Doing the initial handshake with hash: 76edc4d54380a57923f8df6a43186889e25e54075eec98d84c962bbd853a0bdf
+2024-05-23 11:49:09.384 [info] Handshake start
+2024-05-23 11:49:10.086 [info] Handshake timing: 705.1283700019121
+2024-05-23 11:49:10.087 [info] Handshake result:
+2024-05-23 11:49:10.087 [info] Starting fast remote sync.
+2024-05-23 11:49:10.087 [info] Total num embeddable files: 1063
+2024-05-23 11:49:10.088 [info] Root hash: 76edc4d54380a57923f8df6a43186889e25e54075eec98d84c962bbd853a0bdf
+2024-05-23 11:49:10.088 [info] In the out of sync case.
+2024-05-23 11:49:10.088 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"76edc4d54380a57923f8df6a43186889e25e54075eec98d84c962bbd853a0bdf"}
+2024-05-23 11:49:10.089 [info] Waiting on semaphore to be released 1
+2024-05-23 11:49:10.288 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"bee795b5355983ec687e88e20dcf9ac777864bfbaafb207b771c1124081a5dfe"}
+2024-05-23 11:49:10.289 [info] Waiting on semaphore to be released 1
+2024-05-23 11:49:10.488 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"f03c32917bea8bf1c0349850bf815a90c6b4f813099091ac0fecd389a7f132ca"}
+2024-05-23 11:49:10.489 [info] Waiting on semaphore to be released 1
+2024-05-23 11:49:10.688 [info] Waiting on semaphore to be released 1
+2024-05-23 11:49:10.888 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"66695aa39869441ea45f023bfd6dfd7972b048cb89d32b37c83be815d36009b5"}
+2024-05-23 11:49:10.889 [info] Waiting on semaphore to be released 1
+2024-05-23 11:49:11.088 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"9850f78e753a75dd5d6fa06bc49e91fba07c5a2b3deab68845f9b92b35e7efcd"}
+2024-05-23 11:49:11.089 [info] Waiting on semaphore to be released 1
+2024-05-23 11:49:11.287 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"9a4aeef5082c091437d37ed6f73bd08ba5d867db104549444e255083efd13092"}
+2024-05-23 11:49:11.288 [info] Waiting on semaphore to be released 1
+2024-05-23 11:49:11.488 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"b3dd97585ac8d62b4a9b734cc23b2dc66c569ae0c43072dd919fc48b22867dd8"}
+2024-05-23 11:49:11.489 [info] Waiting on semaphore to be released 1
+2024-05-23 11:49:11.688 [info] setting numJobsToGo to 1
+2024-05-23 11:49:11.688 [info] [startSync]: numJobs: 1
+2024-05-23 11:49:11.688 [info] Uploading 1 files.
+2024-05-23 11:49:58.637 [info] Finished indexing repository.
+2024-05-23 11:49:58.638 [info] Indexing job successfully done or aborted.
+2024-05-23 11:59:09.173 [info] Creating merkle client.
+2024-05-23 11:59:09.173 [info] Done creating merkle client.
+2024-05-23 11:59:09.173 [info] Doing a startup handshake.
+2024-05-23 11:59:09.348 [info] Finished initializing merkle tree in 175.15881100296974 ms.
+2024-05-23 11:59:09.349 [info] Doing the initial handshake with hash: baeb3985cd61b68e367af160cb256824da794a62f56e29a0f59c7b115a91593e
+2024-05-23 11:59:09.356 [info] Handshake start
+2024-05-23 11:59:10.046 [info] Handshake timing: 696.393223002553
+2024-05-23 11:59:10.046 [info] Handshake result:
+2024-05-23 11:59:10.047 [info] Starting fast remote sync.
+2024-05-23 11:59:10.047 [info] Total num embeddable files: 1063
+2024-05-23 11:59:10.048 [info] Root hash: baeb3985cd61b68e367af160cb256824da794a62f56e29a0f59c7b115a91593e
+2024-05-23 11:59:10.048 [info] In the out of sync case.
+2024-05-23 11:59:10.048 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"baeb3985cd61b68e367af160cb256824da794a62f56e29a0f59c7b115a91593e"}
+2024-05-23 11:59:10.049 [info] Waiting on semaphore to be released 1
+2024-05-23 11:59:10.249 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"c8a9e88647c41ec47698aeeb7402b642e92cd30d535f78345c254a99fd9e3044"}
+2024-05-23 11:59:10.250 [info] Waiting on semaphore to be released 1
+2024-05-23 11:59:10.448 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"9d8cf89f00093e4859fb68aedf076ae925983b74497caed93db264375b856336"}
+2024-05-23 11:59:10.450 [info] Waiting on semaphore to be released 1
+2024-05-23 11:59:10.648 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"be071f74e9ffefd348674288a91da932d8f00f499440e995995f61e8e0c406a4"}
+2024-05-23 11:59:10.649 [info] Waiting on semaphore to be released 1
+2024-05-23 11:59:10.848 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"0f3e60da899f4d9f590d21d925c78d8da018efd4cbb5c157f35bb009169d2c52"}
+2024-05-23 11:59:10.850 [info] Waiting on semaphore to be released 1
+2024-05-23 11:59:11.049 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"b90e74704e52c2f2b8b84a1528a059b1dc768281ec418be5d9d3002d4dbcd745"}
+2024-05-23 11:59:11.050 [info] Waiting on semaphore to be released 1
+2024-05-23 11:59:11.248 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"a326321e8b01492c15010aab93b6acdf0993d26444deaac054b2e99238ed21fa"}
+2024-05-23 11:59:11.250 [info] Waiting on semaphore to be released 1
+2024-05-23 11:59:11.449 [info] setting numJobsToGo to 1
+2024-05-23 11:59:11.449 [info] [startSync]: numJobs: 1
+2024-05-23 11:59:11.449 [info] Uploading 1 files.
+2024-05-23 12:01:58.551 [info] Finished indexing repository.
+2024-05-23 12:01:58.552 [info] Indexing job successfully done or aborted.
+2024-05-23 12:09:09.159 [info] Creating merkle client.
+2024-05-23 12:09:09.159 [info] Done creating merkle client.
+2024-05-23 12:09:09.159 [info] Doing a startup handshake.
+2024-05-23 12:09:09.329 [info] Finished initializing merkle tree in 170.52117600291967 ms.
+2024-05-23 12:09:09.330 [info] Doing the initial handshake with hash: f298e75299467549a232814d2dfd425532482774b4cb02f5eadc39458815f60b
+2024-05-23 12:09:09.333 [info] Handshake start
+2024-05-23 12:09:10.070 [info] Handshake timing: 739.5211329981685
+2024-05-23 12:09:10.070 [info] Handshake result:
+2024-05-23 12:09:10.070 [info] Starting fast remote sync.
+2024-05-23 12:09:10.071 [info] Total num embeddable files: 1063
+2024-05-23 12:09:10.071 [info] Root hash: f298e75299467549a232814d2dfd425532482774b4cb02f5eadc39458815f60b
+2024-05-23 12:09:10.071 [info] In the out of sync case.
+2024-05-23 12:09:10.071 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"f298e75299467549a232814d2dfd425532482774b4cb02f5eadc39458815f60b"}
+2024-05-23 12:09:10.072 [info] Waiting on semaphore to be released 1
+2024-05-23 12:09:10.271 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"356b4ce7364713db86f43b97e1abb94def745ab87a0a4d3f5515d0cbb27746f6"}
+2024-05-23 12:09:10.272 [info] Waiting on semaphore to be released 1
+2024-05-23 12:09:10.471 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"e6b5344400eb58d761fa67c58367952b2e6b96b67dbfb6dec343f35df60a44d2"}
+2024-05-23 12:09:10.473 [info] Waiting on semaphore to be released 1
+2024-05-23 12:09:10.672 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"85508a91473f7f67cb54859a8a41cc4a7fc6011d7a593d986229f86d35d0d85b"}
+2024-05-23 12:09:10.673 [info] Waiting on semaphore to be released 1
+2024-05-23 12:09:10.871 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"eaf624a453a1c97fdec6bfdd0241296b3a7d905641ca0a48ba1a6212a00afd8e"}
+2024-05-23 12:09:10.872 [info] Waiting on semaphore to be released 1
+2024-05-23 12:09:11.072 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"15af75bcdd26276ec123c9f2aba291463bd5d6dd0a072cabbf6b3c10bed34dec"}
+2024-05-23 12:09:11.073 [info] Waiting on semaphore to be released 1
+2024-05-23 12:09:11.272 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"1f542afab00ecbd07bda8baa545ed772de865e1ae1f05d8b8aec96275017d36e"}
+2024-05-23 12:09:11.273 [info] Waiting on semaphore to be released 1
+2024-05-23 12:09:11.472 [info] setting numJobsToGo to 1
+2024-05-23 12:09:11.472 [info] [startSync]: numJobs: 1
+2024-05-23 12:09:11.472 [info] Uploading 1 files.
+2024-05-23 12:09:58.611 [info] Finished indexing repository.
+2024-05-23 12:09:58.611 [info] Indexing job successfully done or aborted.
+2024-05-23 12:19:09.144 [info] Creating merkle client.
+2024-05-23 12:19:09.144 [info] Done creating merkle client.
+2024-05-23 12:19:09.144 [info] Doing a startup handshake.
+2024-05-23 12:19:09.292 [info] Finished initializing merkle tree in 148.54693300276995 ms.
+2024-05-23 12:19:09.294 [info] Doing the initial handshake with hash: 7e696ee3bc4721ca5811e02f47577b9e4df476b7c14d3ff68c5b2730ceeb25e0
+2024-05-23 12:19:09.296 [info] Handshake start
+2024-05-23 12:19:10.024 [info] Handshake timing: 730.3456190004945
+2024-05-23 12:19:10.025 [info] Handshake result:
+2024-05-23 12:19:10.025 [info] Starting fast remote sync.
+2024-05-23 12:19:10.026 [info] Total num embeddable files: 1063
+2024-05-23 12:19:10.026 [info] Root hash: 7e696ee3bc4721ca5811e02f47577b9e4df476b7c14d3ff68c5b2730ceeb25e0
+2024-05-23 12:19:10.026 [info] In the out of sync case.
+2024-05-23 12:19:10.026 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"7e696ee3bc4721ca5811e02f47577b9e4df476b7c14d3ff68c5b2730ceeb25e0"}
+2024-05-23 12:19:10.027 [info] Waiting on semaphore to be released 1
+2024-05-23 12:19:10.226 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"6352d9af1e832d579d5ba59145bcc7fea3b5736f6952ff5b30c08d6450ee3e9c"}
+2024-05-23 12:19:10.227 [info] Waiting on semaphore to be released 1
+2024-05-23 12:19:10.427 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"e2fb97078684791929d65ead42a2249fc707b078ea96edecaf7d844644e5c8c5"}
+2024-05-23 12:19:10.427 [info] Waiting on semaphore to be released 1
+2024-05-23 12:19:10.627 [info] Waiting on semaphore to be released 1
+2024-05-23 12:19:10.829 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"87aa235dbb5062cc62e090b73b977b94eba9c0e59540088987a3496989643ee9"}
+2024-05-23 12:19:10.830 [info] Waiting on semaphore to be released 1
+2024-05-23 12:19:11.029 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"459e959bb8050778a749ade5d74b16e333c9b6bbbb1fe4a3a26d0b187c1ebc62"}
+2024-05-23 12:19:11.030 [info] Waiting on semaphore to be released 1
+2024-05-23 12:19:11.229 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"ef4dbe19242acadc4fff5f750a09ef87c44b4e68d7d4bf5686dfa9ba3b4b892b"}
+2024-05-23 12:19:11.230 [info] Waiting on semaphore to be released 1
+2024-05-23 12:19:11.428 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"03e3d6c1140e833f78a9d4c9d7f126ab7647211fd47ebd1eedc8c5a6bb3c6529"}
+2024-05-23 12:19:11.429 [info] Waiting on semaphore to be released 1
+2024-05-23 12:19:11.628 [info] Waiting on semaphore to be released 1
+2024-05-23 12:19:11.829 [info] setting numJobsToGo to 1
+2024-05-23 12:19:11.829 [info] [startSync]: numJobs: 1
+2024-05-23 12:19:11.830 [info] Uploading 1 files.
+2024-05-23 12:19:58.621 [info] Finished indexing repository.
+2024-05-23 12:19:58.621 [info] Indexing job successfully done or aborted.
+2024-05-23 12:29:09.129 [info] Creating merkle client.
+2024-05-23 12:29:09.129 [info] Done creating merkle client.
+2024-05-23 12:29:09.129 [info] Doing a startup handshake.
+2024-05-23 12:29:09.279 [info] Finished initializing merkle tree in 150.2587379962206 ms.
+2024-05-23 12:29:09.280 [info] Doing the initial handshake with hash: 2077c57baf9ca8fdc67716c4788b10420ceaec05274a296d23ebe79074b8539e
+2024-05-23 12:29:09.282 [info] Handshake start
+2024-05-23 12:29:11.973 [info] Handshake start
+2024-05-23 12:29:12.161 [info] Handshake timing: 188.9058260023594
+2024-05-23 12:29:12.161 [info] Handshake result:
+2024-05-23 12:29:12.161 [info] Starting fast remote sync.
+2024-05-23 12:29:12.162 [info] Total num embeddable files: 1063
+2024-05-23 12:29:12.162 [info] Root hash: 2077c57baf9ca8fdc67716c4788b10420ceaec05274a296d23ebe79074b8539e
+2024-05-23 12:29:12.162 [info] In the out of sync case.
+2024-05-23 12:29:12.163 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"2077c57baf9ca8fdc67716c4788b10420ceaec05274a296d23ebe79074b8539e"}
+2024-05-23 12:29:12.164 [info] Waiting on semaphore to be released 1
+2024-05-23 12:29:12.362 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"69adfc4b5cb0f313e27d543bd350254b845fbf32d6a4f37fb802397eeea5da99"}
+2024-05-23 12:29:12.363 [info] Waiting on semaphore to be released 1
+2024-05-23 12:29:12.562 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"9ee9f915c94e9943b29d7ded2cfac918bc3e85da98ff76bd213530f4445339d4"}
+2024-05-23 12:29:12.563 [info] Waiting on semaphore to be released 1
+2024-05-23 12:29:12.763 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"1bdd7c226affc3a39bfe59e8150a3be8fe5232583a01278839d39b9e9e00f4b6"}
+2024-05-23 12:29:12.763 [info] Waiting on semaphore to be released 1
+2024-05-23 12:29:12.962 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"cb4cdc533bf6456cd9c38e45bdeddb7e6f400527de734ba2e42c6be9567ca80c"}
+2024-05-23 12:29:12.963 [info] Waiting on semaphore to be released 1
+2024-05-23 12:29:13.163 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"7d1b7dc8c0d0011f8c2649290c06aa8d1c4fa74d08cdfcb275b53e9214b28ec1"}
+2024-05-23 12:29:13.163 [info] Waiting on semaphore to be released 1
+2024-05-23 12:29:13.362 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"8d34730161c33d3020bfdbc7c8534386957ffa1eab6ba7927c00884dd25bf8d2"}
+2024-05-23 12:29:13.363 [info] Waiting on semaphore to be released 1
+2024-05-23 12:29:13.563 [info] setting numJobsToGo to 1
+2024-05-23 12:29:13.563 [info] [startSync]: numJobs: 1
+2024-05-23 12:29:13.563 [info] Uploading 1 files.
+2024-05-23 12:29:58.616 [info] Finished indexing repository.
+2024-05-23 12:29:58.616 [info] Indexing job successfully done or aborted.
+2024-05-23 12:39:09.115 [info] Creating merkle client.
+2024-05-23 12:39:09.115 [info] Done creating merkle client.
+2024-05-23 12:39:09.115 [info] Doing a startup handshake.
+2024-05-23 12:39:09.327 [info] Finished initializing merkle tree in 212.09473100304604 ms.
+2024-05-23 12:39:09.329 [info] Doing the initial handshake with hash: 58cb5ad3664c19485995210c9a49160fe186bf6772a715b88dcb0f173807ac0f
+2024-05-23 12:39:09.333 [info] Handshake start
+2024-05-23 12:39:10.037 [info] Handshake timing: 707.5998789966106
+2024-05-23 12:39:10.037 [info] Handshake result:
+2024-05-23 12:39:10.037 [info] Starting fast remote sync.
+2024-05-23 12:39:10.038 [info] Total num embeddable files: 1063
+2024-05-23 12:39:10.038 [info] Root hash: 58cb5ad3664c19485995210c9a49160fe186bf6772a715b88dcb0f173807ac0f
+2024-05-23 12:39:10.038 [info] In the out of sync case.
+2024-05-23 12:39:10.038 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"58cb5ad3664c19485995210c9a49160fe186bf6772a715b88dcb0f173807ac0f"}
+2024-05-23 12:39:10.039 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:10.241 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:10.441 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server","hash":"e9b2df472d6c697b12a73fcd689bb3b6976b4ed5051281f14388b838d44908ee"}
+2024-05-23 12:39:10.442 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server","hash":"1db217e19265b9a95107dfbbc7a7b0d3a354a9dc166dbf98782edfd717c211f6"}
+2024-05-23 12:39:10.443 [info] Waiting on semaphore to be released 2
+2024-05-23 12:39:10.642 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data","hash":"7bfd9ce9252278519936ee0ea09da001cf828664cffaed5351e292cdb6941c3e"}
+2024-05-23 12:39:10.643 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data","hash":"d82a2679b169f52b81abf94a2f644a1bf8f789b8032b7ac59df96aaad4eeda86"}
+2024-05-23 12:39:10.643 [info] Waiting on semaphore to be released 2
+2024-05-23 12:39:10.842 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs","hash":"7fdfc4bc11590a5993c6b6b7629b83fc06ae7e6be06bf1eb3c31a36946d67d09"}
+2024-05-23 12:39:10.843 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs","hash":"4fc45b8a43323074357befd3462a5f84ae56d264a94c3f0dfdf589c63ad14116"}
+2024-05-23 12:39:10.843 [info] Waiting on semaphore to be released 2
+2024-05-23 12:39:11.042 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs/20240522T135711","hash":"709782446de5cf328167c5be682abe3a4d97dea91e4194aa9e855fc47b68254d"}
+2024-05-23 12:39:11.043 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903","hash":"426e5386fa09a83b1e3382d7eed0879e991a6feee78186d11f8a6538f80c8193"}
+2024-05-23 12:39:11.044 [info] Waiting on semaphore to be released 2
+2024-05-23 12:39:11.241 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.vscode-server/data/logs/20240522T135711/exthost1","hash":"4e83bd2aa77b3a822cbc73827b38426d5245cc38bb6b18dcaf676aef3b9a2bd4"}
+2024-05-23 12:39:11.243 [info] Waiting on semaphore to be released 2
+2024-05-23 12:39:11.442 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:11.642 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:11.842 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:12.042 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:12.243 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:12.443 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:12.644 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:12.844 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:13.045 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:13.245 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:13.446 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1","hash":"57ad174b5f22d3b9cffee16a24f483fb5bd6eeee28d7b3ac02923e8cebcb80f8"}
+2024-05-23 12:39:13.447 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:13.645 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./.cursor-server/data/logs/20240523T090903/exthost1/anysphere.cursor-retrieval","hash":"04b1836cabd058fe57e9a7f78f22a5235a9891c452a2abcc10ce8f1775f71707"}
+2024-05-23 12:39:13.646 [info] Waiting on semaphore to be released 1
+2024-05-23 12:39:13.846 [info] setting numJobsToGo to 4
+2024-05-23 12:39:13.847 [info] [startSync]: numJobs: 4
+2024-05-23 12:39:13.847 [info] Uploading 4 files.
+2024-05-23 12:40:59.651 [info] Finished indexing repository.
+2024-05-23 12:40:59.651 [info] Indexing job successfully done or aborted.

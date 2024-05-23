@@ -1,0 +1,17 @@
+{
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "php.validate.run": "onType",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "files.autoGuessEncoding": true,
+  "php.suggest.basic": true,
+  "php.validate.enable": true,
+  "editor.formatOnSave": true,
+  "security.allowedUNCHosts": [
+    "10.50.0.38",
+    "192.168.50.80",
+    "10.50.0.10"
+  ],
+  "git.confirmSync": false
+}

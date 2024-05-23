@@ -1,0 +1,1189 @@
+2024-05-23 14:10:15.203 [info] ログ レベル: Info
+2024-05-23 14:10:15.203 [info] Git の検証が検出されました: "git"
+2024-05-23 14:10:15.203 [info] "git" から Git "2.34.1" を使用しています
+2024-05-23 14:10:15.203 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-23 14:10:15.203 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:10:15.203 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 14:10:15.203 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:10:15.215 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-23 14:10:15.215 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:10:15.237 [info] > git rev-parse --show-toplevel [14ms]
+2024-05-23 14:10:15.237 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:10:15.247 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:10:15.247 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:10:15.260 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:10:15.260 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:10:15.271 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:10:15.271 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:10:15.364 [info] > git rev-parse --show-toplevel [74ms]
+2024-05-23 14:10:15.364 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:10:15.372 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 14:10:15.372 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:10:15.378 [info] > git rev-parse --show-toplevel [0ms]
+2024-05-23 14:10:15.378 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-23 14:11:28.429 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-23 14:11:28.434 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-05-23 14:11:28.445 [info] Open repository: /home/tenda
+2024-05-23 14:11:28.456 [info] No remotes found in the git config file.
+2024-05-23 14:11:28.457 [info] > git config --get commit.template [6ms]
+2024-05-23 14:11:28.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:11:28.458 [warning] No such branch: master.
+2024-05-23 14:11:28.551 [info] > git status -z -uall [88ms]
+2024-05-23 14:11:28.604 [info] > git config --get commit.template [3ms]
+2024-05-23 14:11:28.609 [info] No remotes found in the git config file.
+2024-05-23 14:11:28.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:11:28.610 [warning] No such branch: master.
+2024-05-23 14:11:28.628 [info] > git status -z -uall [14ms]
+2024-05-23 14:11:29.032 [info] > git check-ignore -v -z --stdin [2ms]
+2024-05-23 14:11:29.117 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [9ms]
+2024-05-23 14:11:29.117 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:11:33.070 [info] > git config --get commit.template [1ms]
+2024-05-23 14:11:33.074 [info] No remotes found in the git config file.
+2024-05-23 14:11:33.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:11:33.075 [warning] No such branch: master.
+2024-05-23 14:11:33.092 [info] > git status -z -uall [14ms]
+2024-05-23 14:11:38.124 [info] > git config --get commit.template [1ms]
+2024-05-23 14:11:38.128 [info] No remotes found in the git config file.
+2024-05-23 14:11:38.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:11:38.129 [warning] No such branch: master.
+2024-05-23 14:11:38.144 [info] > git status -z -uall [12ms]
+2024-05-23 14:11:47.002 [info] > git config --get commit.template [2ms]
+2024-05-23 14:11:47.009 [info] No remotes found in the git config file.
+2024-05-23 14:11:47.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:11:47.010 [warning] No such branch: master.
+2024-05-23 14:11:47.039 [info] > git status -z -uall [21ms]
+2024-05-23 14:11:49.434 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-23 14:11:52.077 [info] > git config --get commit.template [2ms]
+2024-05-23 14:11:52.083 [info] No remotes found in the git config file.
+2024-05-23 14:11:52.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:11:52.084 [warning] No such branch: master.
+2024-05-23 14:11:52.102 [info] > git status -z -uall [14ms]
+2024-05-23 14:11:55.140 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:11:57.131 [info] > git config --get commit.template [1ms]
+2024-05-23 14:11:57.178 [info] No remotes found in the git config file.
+2024-05-23 14:11:57.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [43ms]
+2024-05-23 14:11:57.179 [warning] No such branch: master.
+2024-05-23 14:11:57.197 [info] > git status -z -uall [14ms]
+2024-05-23 14:12:00.960 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-23 14:12:02.226 [info] > git config --get commit.template [1ms]
+2024-05-23 14:12:02.232 [info] No remotes found in the git config file.
+2024-05-23 14:12:02.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-05-23 14:12:02.233 [warning] No such branch: master.
+2024-05-23 14:12:02.258 [info] > git status -z -uall [20ms]
+2024-05-23 14:12:07.292 [info] > git config --get commit.template [1ms]
+2024-05-23 14:12:07.296 [info] No remotes found in the git config file.
+2024-05-23 14:12:07.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:12:07.297 [warning] No such branch: master.
+2024-05-23 14:12:07.312 [info] > git status -z -uall [12ms]
+2024-05-23 14:12:50.311 [info] No remotes found in the git config file.
+2024-05-23 14:12:50.312 [info] > git config --get commit.template [8ms]
+2024-05-23 14:12:50.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:12:50.313 [warning] No such branch: master.
+2024-05-23 14:12:50.337 [info] > git status -z -uall [20ms]
+2024-05-23 14:12:55.377 [info] > git config --get commit.template [1ms]
+2024-05-23 14:12:55.382 [info] No remotes found in the git config file.
+2024-05-23 14:12:55.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:12:55.383 [warning] No such branch: master.
+2024-05-23 14:12:55.396 [info] > git status -z -uall [11ms]
+2024-05-23 14:13:16.457 [info] > git config --get commit.template [2ms]
+2024-05-23 14:13:16.468 [info] No remotes found in the git config file.
+2024-05-23 14:13:16.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:13:16.469 [warning] No such branch: master.
+2024-05-23 14:13:16.503 [info] > git status -z -uall [23ms]
+2024-05-23 14:13:21.549 [info] No remotes found in the git config file.
+2024-05-23 14:13:21.550 [info] > git config --get commit.template [5ms]
+2024-05-23 14:13:21.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:13:21.550 [warning] No such branch: master.
+2024-05-23 14:13:21.566 [info] > git status -z -uall [12ms]
+2024-05-23 14:13:29.134 [info] No remotes found in the git config file.
+2024-05-23 14:13:29.135 [info] > git config --get commit.template [4ms]
+2024-05-23 14:13:29.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:13:29.135 [warning] No such branch: master.
+2024-05-23 14:13:29.150 [info] > git status -z -uall [12ms]
+2024-05-23 14:13:30.927 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:13:30.937 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:13:34.179 [info] > git config --get commit.template [1ms]
+2024-05-23 14:13:34.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:13:34.184 [warning] No such branch: master.
+2024-05-23 14:13:34.199 [info] > git status -z -uall [12ms]
+2024-05-23 14:13:39.233 [info] > git config --get commit.template [4ms]
+2024-05-23 14:13:39.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:13:39.233 [warning] No such branch: master.
+2024-05-23 14:13:39.248 [info] > git status -z -uall [12ms]
+2024-05-23 14:13:39.844 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:13:41.010 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:14:09.749 [info] > git config --get commit.template [8ms]
+2024-05-23 14:14:09.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:14:09.751 [warning] No such branch: master.
+2024-05-23 14:14:09.776 [info] > git status -z -uall [18ms]
+2024-05-23 14:14:14.809 [info] > git config --get commit.template [0ms]
+2024-05-23 14:14:14.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-23 14:14:14.815 [warning] No such branch: master.
+2024-05-23 14:14:14.831 [info] > git status -z -uall [12ms]
+2024-05-23 14:14:19.862 [info] > git config --get commit.template [0ms]
+2024-05-23 14:14:19.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:14:19.867 [warning] No such branch: master.
+2024-05-23 14:14:19.883 [info] > git status -z -uall [12ms]
+2024-05-23 14:14:24.916 [info] > git config --get commit.template [1ms]
+2024-05-23 14:14:24.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-23 14:14:24.920 [warning] No such branch: master.
+2024-05-23 14:14:24.934 [info] > git status -z -uall [10ms]
+2024-05-23 14:14:29.961 [info] > git config --get commit.template [1ms]
+2024-05-23 14:14:29.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:14:29.969 [warning] No such branch: master.
+2024-05-23 14:14:29.988 [info] > git status -z -uall [15ms]
+2024-05-23 14:14:48.904 [info] > git config --get commit.template [7ms]
+2024-05-23 14:14:48.904 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:14:48.905 [warning] No such branch: master.
+2024-05-23 14:14:48.930 [info] > git status -z -uall [17ms]
+2024-05-23 14:14:49.219 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:14:53.968 [info] > git config --get commit.template [1ms]
+2024-05-23 14:14:53.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:14:53.976 [warning] No such branch: master.
+2024-05-23 14:14:53.993 [info] > git status -z -uall [13ms]
+2024-05-23 14:14:59.023 [info] > git config --get commit.template [1ms]
+2024-05-23 14:14:59.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:14:59.028 [warning] No such branch: master.
+2024-05-23 14:14:59.044 [info] > git status -z -uall [13ms]
+2024-05-23 14:15:04.073 [info] > git config --get commit.template [1ms]
+2024-05-23 14:15:04.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:15:04.079 [warning] No such branch: master.
+2024-05-23 14:15:04.094 [info] > git status -z -uall [12ms]
+2024-05-23 14:15:06.186 [info] > git check-ignore -v -z --stdin [5ms]
+2024-05-23 14:15:09.131 [info] > git config --get commit.template [1ms]
+2024-05-23 14:15:09.137 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:15:09.137 [warning] No such branch: master.
+2024-05-23 14:15:09.159 [info] > git status -z -uall [16ms]
+2024-05-23 14:16:49.902 [info] > git config --get commit.template [1ms]
+2024-05-23 14:16:49.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:16:49.913 [warning] No such branch: master.
+2024-05-23 14:16:49.936 [info] > git status -z -uall [15ms]
+2024-05-23 14:16:54.972 [info] > git config --get commit.template [5ms]
+2024-05-23 14:16:54.972 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:16:54.972 [warning] No such branch: master.
+2024-05-23 14:16:54.990 [info] > git status -z -uall [14ms]
+2024-05-23 14:17:00.021 [info] > git config --get commit.template [1ms]
+2024-05-23 14:17:00.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:00.030 [warning] No such branch: master.
+2024-05-23 14:17:00.052 [info] > git status -z -uall [15ms]
+2024-05-23 14:17:10.625 [info] > git add -A -- . [7869ms]
+2024-05-23 14:17:10.822 [info] > git -c user.useConfigOnly=true commit --quiet [191ms]
+2024-05-23 14:17:10.822 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-05-23 14:17:10.827 [info] > git config --get-all user.name [1ms]
+2024-05-23 14:17:10.835 [info] > git config --get commit.template [3ms]
+2024-05-23 14:17:10.835 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:10.835 [warning] No such branch: master.
+2024-05-23 14:17:10.851 [info] > git status -z -uall [13ms]
+2024-05-23 14:17:10.897 [info] > git config --get commit.template [7ms]
+2024-05-23 14:17:10.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:10.898 [warning] No such branch: master.
+2024-05-23 14:17:10.919 [info] > git status -z -uall [17ms]
+2024-05-23 14:17:16.019 [info] > git config --get commit.template [8ms]
+2024-05-23 14:17:16.019 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:16.019 [warning] No such branch: master.
+2024-05-23 14:17:16.039 [info] > git status -z -uall [15ms]
+2024-05-23 14:17:16.074 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [7ms]
+2024-05-23 14:17:16.081 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [3ms]
+2024-05-23 14:17:16.091 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:17:21.067 [info] > git config --get commit.template [1ms]
+2024-05-23 14:17:21.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:21.072 [warning] No such branch: master.
+2024-05-23 14:17:21.088 [info] > git status -z -uall [12ms]
+2024-05-23 14:17:26.122 [info] > git config --get commit.template [6ms]
+2024-05-23 14:17:26.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:17:26.123 [warning] No such branch: master.
+2024-05-23 14:17:26.141 [info] > git status -z -uall [13ms]
+2024-05-23 14:17:31.182 [info] > git config --get commit.template [7ms]
+2024-05-23 14:17:31.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:31.182 [warning] No such branch: master.
+2024-05-23 14:17:31.198 [info] > git status -z -uall [12ms]
+2024-05-23 14:17:36.226 [info] > git config --get commit.template [1ms]
+2024-05-23 14:17:36.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:36.234 [warning] No such branch: master.
+2024-05-23 14:17:36.252 [info] > git status -z -uall [13ms]
+2024-05-23 14:17:41.283 [info] > git config --get commit.template [1ms]
+2024-05-23 14:17:41.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:41.292 [warning] No such branch: master.
+2024-05-23 14:17:41.307 [info] > git status -z -uall [12ms]
+2024-05-23 14:17:46.336 [info] > git config --get commit.template [1ms]
+2024-05-23 14:17:46.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:46.345 [warning] No such branch: master.
+2024-05-23 14:17:46.361 [info] > git status -z -uall [11ms]
+2024-05-23 14:17:51.394 [info] > git config --get commit.template [6ms]
+2024-05-23 14:17:51.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:51.394 [warning] No such branch: master.
+2024-05-23 14:17:51.412 [info] > git status -z -uall [13ms]
+2024-05-23 14:17:56.452 [info] > git config --get commit.template [8ms]
+2024-05-23 14:17:56.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:17:56.453 [warning] No such branch: master.
+2024-05-23 14:17:56.473 [info] > git status -z -uall [13ms]
+2024-05-23 14:18:06.263 [info] > git config --get commit.template [10ms]
+2024-05-23 14:18:06.264 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:18:06.264 [warning] No such branch: master.
+2024-05-23 14:18:06.286 [info] > git status -z -uall [13ms]
+2024-05-23 14:18:11.330 [info] > git config --get commit.template [8ms]
+2024-05-23 14:18:11.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:18:11.331 [warning] No such branch: master.
+2024-05-23 14:18:11.348 [info] > git status -z -uall [12ms]
+2024-05-23 14:18:49.611 [info] > git config --get commit.template [1ms]
+2024-05-23 14:18:49.617 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:18:49.617 [warning] No such branch: master.
+2024-05-23 14:18:49.639 [info] > git status -z -uall [16ms]
+2024-05-23 14:18:54.678 [info] > git config --get commit.template [6ms]
+2024-05-23 14:18:54.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:18:54.678 [warning] No such branch: master.
+2024-05-23 14:18:54.694 [info] > git status -z -uall [12ms]
+2024-05-23 14:19:01.091 [info] > git config --get commit.template [6ms]
+2024-05-23 14:19:01.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:01.091 [warning] No such branch: master.
+2024-05-23 14:19:01.109 [info] > git status -z -uall [13ms]
+2024-05-23 14:19:06.145 [info] > git config --get commit.template [8ms]
+2024-05-23 14:19:06.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:06.145 [warning] No such branch: master.
+2024-05-23 14:19:06.165 [info] > git status -z -uall [13ms]
+2024-05-23 14:19:11.209 [info] > git config --get commit.template [5ms]
+2024-05-23 14:19:11.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:11.209 [warning] No such branch: master.
+2024-05-23 14:19:11.229 [info] > git status -z -uall [17ms]
+2024-05-23 14:19:16.268 [info] > git config --get commit.template [5ms]
+2024-05-23 14:19:16.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:16.268 [warning] No such branch: master.
+2024-05-23 14:19:16.282 [info] > git status -z -uall [10ms]
+2024-05-23 14:19:21.316 [info] > git config --get commit.template [8ms]
+2024-05-23 14:19:21.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:21.316 [warning] No such branch: master.
+2024-05-23 14:19:21.335 [info] > git status -z -uall [14ms]
+2024-05-23 14:19:26.366 [info] > git config --get commit.template [1ms]
+2024-05-23 14:19:26.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:26.371 [warning] No such branch: master.
+2024-05-23 14:19:26.387 [info] > git status -z -uall [11ms]
+2024-05-23 14:19:31.425 [info] > git config --get commit.template [7ms]
+2024-05-23 14:19:31.425 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:31.425 [warning] No such branch: master.
+2024-05-23 14:19:31.440 [info] > git status -z -uall [10ms]
+2024-05-23 14:19:36.368 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:19:36.473 [info] > git config --get commit.template [6ms]
+2024-05-23 14:19:36.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:36.474 [warning] No such branch: master.
+2024-05-23 14:19:36.496 [info] > git status -z -uall [16ms]
+2024-05-23 14:19:41.543 [info] > git config --get commit.template [1ms]
+2024-05-23 14:19:41.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:41.549 [warning] No such branch: master.
+2024-05-23 14:19:41.565 [info] > git status -z -uall [12ms]
+2024-05-23 14:19:46.599 [info] > git config --get commit.template [6ms]
+2024-05-23 14:19:46.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:19:46.599 [warning] No such branch: master.
+2024-05-23 14:19:46.615 [info] > git status -z -uall [12ms]
+2024-05-23 14:19:54.116 [info] > git config --get commit.template [2ms]
+2024-05-23 14:19:54.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-23 14:19:54.124 [warning] No such branch: master.
+2024-05-23 14:19:54.140 [info] > git status -z -uall [12ms]
+2024-05-23 14:19:59.171 [info] > git config --get commit.template [6ms]
+2024-05-23 14:19:59.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:19:59.172 [warning] No such branch: master.
+2024-05-23 14:19:59.189 [info] > git status -z -uall [12ms]
+2024-05-23 14:20:04.218 [info] > git config --get commit.template [1ms]
+2024-05-23 14:20:04.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:20:04.224 [warning] No such branch: master.
+2024-05-23 14:20:04.241 [info] > git status -z -uall [12ms]
+2024-05-23 14:21:51.895 [info] > git config --get commit.template [11ms]
+2024-05-23 14:21:51.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:21:51.895 [warning] No such branch: master.
+2024-05-23 14:21:51.921 [info] > git status -z -uall [21ms]
+2024-05-23 14:21:56.959 [info] > git config --get commit.template [4ms]
+2024-05-23 14:21:56.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-23 14:21:56.960 [warning] No such branch: master.
+2024-05-23 14:21:56.976 [info] > git status -z -uall [12ms]
+2024-05-23 14:22:02.006 [info] > git config --get commit.template [0ms]
+2024-05-23 14:22:02.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:22:02.014 [warning] No such branch: master.
+2024-05-23 14:22:02.032 [info] > git status -z -uall [11ms]
+2024-05-23 14:22:07.063 [info] > git config --get commit.template [6ms]
+2024-05-23 14:22:07.063 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:22:07.063 [warning] No such branch: master.
+2024-05-23 14:22:07.082 [info] > git status -z -uall [13ms]
+2024-05-23 14:22:34.791 [info] > git config --get commit.template [1ms]
+2024-05-23 14:22:34.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:22:34.800 [warning] No such branch: master.
+2024-05-23 14:22:34.829 [info] > git status -z -uall [21ms]
+2024-05-23 14:22:39.868 [info] > git config --get commit.template [5ms]
+2024-05-23 14:22:39.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:22:39.869 [warning] No such branch: master.
+2024-05-23 14:22:39.885 [info] > git status -z -uall [11ms]
+2024-05-23 14:22:44.915 [info] > git config --get commit.template [1ms]
+2024-05-23 14:22:44.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:22:44.921 [warning] No such branch: master.
+2024-05-23 14:22:44.941 [info] > git status -z -uall [15ms]
+2024-05-23 14:22:49.982 [info] > git config --get commit.template [6ms]
+2024-05-23 14:22:49.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:22:49.982 [warning] No such branch: master.
+2024-05-23 14:22:50.000 [info] > git status -z -uall [13ms]
+2024-05-23 14:23:21.470 [info] > git config --get commit.template [1ms]
+2024-05-23 14:23:21.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:23:21.481 [warning] No such branch: master.
+2024-05-23 14:23:21.501 [info] > git status -z -uall [14ms]
+2024-05-23 14:23:26.535 [info] > git config --get commit.template [1ms]
+2024-05-23 14:23:26.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:23:26.543 [warning] No such branch: master.
+2024-05-23 14:23:26.566 [info] > git status -z -uall [16ms]
+2024-05-23 14:24:47.168 [info] > git config --get commit.template [2ms]
+2024-05-23 14:24:47.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:24:47.178 [warning] No such branch: master.
+2024-05-23 14:24:47.208 [info] > git status -z -uall [22ms]
+2024-05-23 14:24:58.040 [info] > git config --get commit.template [9ms]
+2024-05-23 14:24:58.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:24:58.040 [warning] No such branch: master.
+2024-05-23 14:24:58.065 [info] > git status -z -uall [16ms]
+2024-05-23 14:25:03.118 [info] > git config --get commit.template [6ms]
+2024-05-23 14:25:03.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:25:03.118 [warning] No such branch: master.
+2024-05-23 14:25:03.135 [info] > git status -z -uall [12ms]
+2024-05-23 14:25:08.167 [info] > git config --get commit.template [5ms]
+2024-05-23 14:25:08.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:25:08.167 [warning] No such branch: master.
+2024-05-23 14:25:08.185 [info] > git status -z -uall [13ms]
+2024-05-23 14:25:13.219 [info] > git config --get commit.template [6ms]
+2024-05-23 14:25:13.220 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:25:13.220 [warning] No such branch: master.
+2024-05-23 14:25:13.239 [info] > git status -z -uall [14ms]
+2024-05-23 14:25:29.967 [info] > git config --get commit.template [8ms]
+2024-05-23 14:25:29.967 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:25:29.967 [warning] No such branch: master.
+2024-05-23 14:25:29.987 [info] > git status -z -uall [13ms]
+2024-05-23 14:25:35.024 [info] > git config --get commit.template [1ms]
+2024-05-23 14:25:35.031 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:25:35.031 [warning] No such branch: master.
+2024-05-23 14:25:35.055 [info] > git status -z -uall [19ms]
+2024-05-23 14:25:40.091 [info] > git config --get commit.template [6ms]
+2024-05-23 14:25:40.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:25:40.091 [warning] No such branch: master.
+2024-05-23 14:25:40.109 [info] > git status -z -uall [11ms]
+2024-05-23 14:25:45.145 [info] > git config --get commit.template [5ms]
+2024-05-23 14:25:45.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:25:45.145 [warning] No such branch: master.
+2024-05-23 14:25:45.160 [info] > git status -z -uall [10ms]
+2024-05-23 14:25:50.193 [info] > git config --get commit.template [7ms]
+2024-05-23 14:25:50.194 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:25:50.194 [warning] No such branch: master.
+2024-05-23 14:25:50.214 [info] > git status -z -uall [14ms]
+2024-05-23 14:25:56.150 [info] > git config --get commit.template [8ms]
+2024-05-23 14:25:56.150 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:25:56.150 [warning] No such branch: master.
+2024-05-23 14:25:56.172 [info] > git status -z -uall [14ms]
+2024-05-23 14:26:01.205 [info] > git config --get commit.template [7ms]
+2024-05-23 14:26:01.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:26:01.206 [warning] No such branch: master.
+2024-05-23 14:26:01.225 [info] > git status -z -uall [14ms]
+2024-05-23 14:26:43.798 [info] > git config --get commit.template [5ms]
+2024-05-23 14:26:43.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:26:43.798 [warning] No such branch: master.
+2024-05-23 14:26:43.824 [info] > git status -z -uall [19ms]
+2024-05-23 14:26:48.865 [info] > git config --get commit.template [6ms]
+2024-05-23 14:26:48.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:26:48.865 [warning] No such branch: master.
+2024-05-23 14:26:48.884 [info] > git status -z -uall [14ms]
+2024-05-23 14:26:53.916 [info] > git config --get commit.template [6ms]
+2024-05-23 14:26:53.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:26:53.917 [warning] No such branch: master.
+2024-05-23 14:26:53.934 [info] > git status -z -uall [12ms]
+2024-05-23 14:29:14.067 [info] > git config --get commit.template [2ms]
+2024-05-23 14:29:14.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:29:14.075 [warning] No such branch: master.
+2024-05-23 14:29:14.100 [info] > git status -z -uall [19ms]
+2024-05-23 14:29:19.142 [info] > git config --get commit.template [5ms]
+2024-05-23 14:29:19.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:29:19.142 [warning] No such branch: master.
+2024-05-23 14:29:19.161 [info] > git status -z -uall [13ms]
+2024-05-23 14:29:24.195 [info] > git config --get commit.template [5ms]
+2024-05-23 14:29:24.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:29:24.195 [warning] No such branch: master.
+2024-05-23 14:29:24.212 [info] > git status -z -uall [12ms]
+2024-05-23 14:29:29.247 [info] > git config --get commit.template [7ms]
+2024-05-23 14:29:29.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:29:29.248 [warning] No such branch: master.
+2024-05-23 14:29:29.264 [info] > git status -z -uall [11ms]
+2024-05-23 14:29:34.301 [info] > git config --get commit.template [7ms]
+2024-05-23 14:29:34.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:29:34.301 [warning] No such branch: master.
+2024-05-23 14:29:34.319 [info] > git status -z -uall [13ms]
+2024-05-23 14:29:39.349 [info] > git config --get commit.template [1ms]
+2024-05-23 14:29:39.355 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-23 14:29:39.356 [warning] No such branch: master.
+2024-05-23 14:29:39.371 [info] > git status -z -uall [10ms]
+2024-05-23 14:29:44.398 [info] > git config --get commit.template [0ms]
+2024-05-23 14:29:44.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:29:44.405 [warning] No such branch: master.
+2024-05-23 14:29:44.422 [info] > git status -z -uall [11ms]
+2024-05-23 14:29:49.452 [info] > git config --get commit.template [1ms]
+2024-05-23 14:29:49.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:29:49.458 [warning] No such branch: master.
+2024-05-23 14:29:49.477 [info] > git status -z -uall [12ms]
+2024-05-23 14:29:54.512 [info] > git config --get commit.template [6ms]
+2024-05-23 14:29:54.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:29:54.512 [warning] No such branch: master.
+2024-05-23 14:29:54.528 [info] > git status -z -uall [11ms]
+2024-05-23 14:29:59.563 [info] > git config --get commit.template [9ms]
+2024-05-23 14:29:59.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:29:59.563 [warning] No such branch: master.
+2024-05-23 14:29:59.582 [info] > git status -z -uall [14ms]
+2024-05-23 14:30:04.620 [info] > git config --get commit.template [7ms]
+2024-05-23 14:30:04.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:30:04.621 [warning] No such branch: master.
+2024-05-23 14:30:04.638 [info] > git status -z -uall [11ms]
+2024-05-23 14:30:06.562 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:30:09.665 [info] > git config --get commit.template [1ms]
+2024-05-23 14:30:09.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:30:09.673 [warning] No such branch: master.
+2024-05-23 14:30:09.692 [info] > git status -z -uall [13ms]
+2024-05-23 14:30:10.023 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:30:14.733 [info] > git config --get commit.template [11ms]
+2024-05-23 14:30:14.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:30:14.734 [warning] No such branch: master.
+2024-05-23 14:30:14.758 [info] > git status -z -uall [15ms]
+2024-05-23 14:30:19.793 [info] > git config --get commit.template [1ms]
+2024-05-23 14:30:19.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-23 14:30:19.801 [warning] No such branch: master.
+2024-05-23 14:30:19.818 [info] > git status -z -uall [11ms]
+2024-05-23 14:30:24.854 [info] > git config --get commit.template [7ms]
+2024-05-23 14:30:24.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:30:24.854 [warning] No such branch: master.
+2024-05-23 14:30:24.876 [info] > git status -z -uall [17ms]
+2024-05-23 14:30:29.911 [info] > git config --get commit.template [0ms]
+2024-05-23 14:30:29.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:30:29.920 [warning] No such branch: master.
+2024-05-23 14:30:29.974 [info] > git status -z -uall [39ms]
+2024-05-23 14:30:35.014 [info] > git config --get commit.template [7ms]
+2024-05-23 14:30:35.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:30:35.014 [warning] No such branch: master.
+2024-05-23 14:30:35.035 [info] > git status -z -uall [17ms]
+2024-05-23 14:30:40.069 [info] > git config --get commit.template [6ms]
+2024-05-23 14:30:40.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:30:40.070 [warning] No such branch: master.
+2024-05-23 14:30:40.088 [info] > git status -z -uall [12ms]
+2024-05-23 14:30:45.120 [info] > git config --get commit.template [1ms]
+2024-05-23 14:30:45.127 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:30:45.127 [warning] No such branch: master.
+2024-05-23 14:30:45.150 [info] > git status -z -uall [13ms]
+2024-05-23 14:31:23.057 [info] > git config --get commit.template [6ms]
+2024-05-23 14:31:23.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:31:23.058 [warning] No such branch: master.
+2024-05-23 14:31:23.077 [info] > git status -z -uall [15ms]
+2024-05-23 14:32:22.984 [info] > git config --get commit.template [1ms]
+2024-05-23 14:32:22.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:32:22.994 [warning] No such branch: master.
+2024-05-23 14:32:23.018 [info] > git status -z -uall [16ms]
+2024-05-23 14:32:28.065 [info] > git config --get commit.template [7ms]
+2024-05-23 14:32:28.065 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:32:28.065 [warning] No such branch: master.
+2024-05-23 14:32:28.080 [info] > git status -z -uall [12ms]
+2024-05-23 14:32:33.112 [info] > git config --get commit.template [6ms]
+2024-05-23 14:32:33.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:32:33.113 [warning] No such branch: master.
+2024-05-23 14:32:33.129 [info] > git status -z -uall [12ms]
+2024-05-23 14:32:38.168 [info] > git config --get commit.template [6ms]
+2024-05-23 14:32:38.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:32:38.169 [warning] No such branch: master.
+2024-05-23 14:32:38.183 [info] > git status -z -uall [11ms]
+2024-05-23 14:32:43.213 [info] > git config --get commit.template [6ms]
+2024-05-23 14:32:43.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:32:43.213 [warning] No such branch: master.
+2024-05-23 14:32:43.230 [info] > git status -z -uall [11ms]
+2024-05-23 14:32:44.686 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:32:48.261 [info] > git config --get commit.template [5ms]
+2024-05-23 14:32:48.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:32:48.262 [warning] No such branch: master.
+2024-05-23 14:32:48.279 [info] > git status -z -uall [12ms]
+2024-05-23 14:32:53.313 [info] > git config --get commit.template [5ms]
+2024-05-23 14:32:53.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-23 14:32:53.314 [warning] No such branch: master.
+2024-05-23 14:32:53.329 [info] > git status -z -uall [12ms]
+2024-05-23 14:32:58.360 [info] > git config --get commit.template [6ms]
+2024-05-23 14:32:58.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:32:58.361 [warning] No such branch: master.
+2024-05-23 14:32:58.379 [info] > git status -z -uall [12ms]
+2024-05-23 14:33:03.418 [info] > git config --get commit.template [6ms]
+2024-05-23 14:33:03.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:33:03.418 [warning] No such branch: master.
+2024-05-23 14:33:03.433 [info] > git status -z -uall [11ms]
+2024-05-23 14:33:08.472 [info] > git config --get commit.template [9ms]
+2024-05-23 14:33:08.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:33:08.473 [warning] No such branch: master.
+2024-05-23 14:33:08.495 [info] > git status -z -uall [15ms]
+2024-05-23 14:33:13.896 [info] > git config --get commit.template [5ms]
+2024-05-23 14:33:13.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:33:13.897 [warning] No such branch: master.
+2024-05-23 14:33:13.915 [info] > git status -z -uall [13ms]
+2024-05-23 14:33:18.953 [info] > git config --get commit.template [6ms]
+2024-05-23 14:33:18.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:33:18.953 [warning] No such branch: master.
+2024-05-23 14:33:18.968 [info] > git status -z -uall [10ms]
+2024-05-23 14:33:19.655 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:33:23.843 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:33:23.992 [info] > git config --get commit.template [1ms]
+2024-05-23 14:33:23.998 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:33:23.998 [warning] No such branch: master.
+2024-05-23 14:33:24.016 [info] > git status -z -uall [13ms]
+2024-05-23 14:33:41.518 [info] > git config --get commit.template [1ms]
+2024-05-23 14:33:41.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-23 14:33:41.525 [warning] No such branch: master.
+2024-05-23 14:33:41.544 [info] > git status -z -uall [15ms]
+2024-05-23 14:33:46.574 [info] > git config --get commit.template [1ms]
+2024-05-23 14:33:46.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:33:46.580 [warning] No such branch: master.
+2024-05-23 14:33:46.596 [info] > git status -z -uall [12ms]
+2024-05-23 14:34:44.265 [info] > git config --get commit.template [2ms]
+2024-05-23 14:34:44.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:34:44.277 [warning] No such branch: master.
+2024-05-23 14:34:44.314 [info] > git status -z -uall [24ms]
+2024-05-23 14:34:49.364 [info] > git config --get commit.template [1ms]
+2024-05-23 14:34:49.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:34:49.371 [warning] No such branch: master.
+2024-05-23 14:34:49.387 [info] > git status -z -uall [11ms]
+2024-05-23 14:34:54.424 [info] > git config --get commit.template [6ms]
+2024-05-23 14:34:54.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:34:54.424 [warning] No such branch: master.
+2024-05-23 14:34:54.443 [info] > git status -z -uall [14ms]
+2024-05-23 14:35:00.081 [info] > git config --get commit.template [5ms]
+2024-05-23 14:35:00.082 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:35:00.082 [warning] No such branch: master.
+2024-05-23 14:35:00.102 [info] > git status -z -uall [14ms]
+2024-05-23 14:35:05.139 [info] > git config --get commit.template [5ms]
+2024-05-23 14:35:05.139 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:35:05.139 [warning] No such branch: master.
+2024-05-23 14:35:05.154 [info] > git status -z -uall [10ms]
+2024-05-23 14:35:10.182 [info] > git config --get commit.template [2ms]
+2024-05-23 14:35:10.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:35:10.191 [warning] No such branch: master.
+2024-05-23 14:35:10.213 [info] > git status -z -uall [14ms]
+2024-05-23 14:35:15.247 [info] > git config --get commit.template [1ms]
+2024-05-23 14:35:15.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-05-23 14:35:15.254 [warning] No such branch: master.
+2024-05-23 14:35:15.271 [info] > git status -z -uall [12ms]
+2024-05-23 14:35:20.302 [info] > git config --get commit.template [5ms]
+2024-05-23 14:35:20.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:35:20.302 [warning] No such branch: master.
+2024-05-23 14:35:20.319 [info] > git status -z -uall [12ms]
+2024-05-23 14:35:32.921 [info] > git config --get commit.template [2ms]
+2024-05-23 14:35:32.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-23 14:35:32.931 [warning] No such branch: master.
+2024-05-23 14:35:32.966 [info] > git status -z -uall [26ms]
+2024-05-23 14:35:38.011 [info] > git config --get commit.template [6ms]
+2024-05-23 14:35:38.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:35:38.011 [warning] No such branch: master.
+2024-05-23 14:35:38.029 [info] > git status -z -uall [12ms]
+2024-05-23 14:35:53.428 [info] > git config --get commit.template [2ms]
+2024-05-23 14:35:53.440 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-23 14:35:53.440 [warning] No such branch: master.
+2024-05-23 14:35:53.470 [info] > git status -z -uall [22ms]
+2024-05-23 14:35:56.624 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:35:56.629 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:35:56.639 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:35:58.514 [info] > git config --get commit.template [6ms]
+2024-05-23 14:35:58.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:35:58.515 [warning] No such branch: main.
+2024-05-23 14:35:58.533 [info] > git status -z -uall [13ms]
+2024-05-23 14:36:00.276 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:36:03.566 [info] > git config --get commit.template [0ms]
+2024-05-23 14:36:03.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:03.572 [warning] No such branch: main.
+2024-05-23 14:36:03.589 [info] > git status -z -uall [12ms]
+2024-05-23 14:36:08.629 [info] > git config --get commit.template [8ms]
+2024-05-23 14:36:08.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:36:08.630 [warning] No such branch: main.
+2024-05-23 14:36:08.652 [info] > git status -z -uall [16ms]
+2024-05-23 14:36:17.951 [info] > git config --get commit.template [2ms]
+2024-05-23 14:36:17.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:17.959 [warning] No such branch: main.
+2024-05-23 14:36:17.978 [info] > git status -z -uall [14ms]
+2024-05-23 14:36:23.015 [info] > git config --get commit.template [6ms]
+2024-05-23 14:36:23.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:23.016 [warning] No such branch: main.
+2024-05-23 14:36:23.033 [info] > git status -z -uall [12ms]
+2024-05-23 14:36:28.066 [info] > git config --get commit.template [1ms]
+2024-05-23 14:36:28.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:28.076 [warning] No such branch: main.
+2024-05-23 14:36:28.101 [info] > git status -z -uall [15ms]
+2024-05-23 14:36:33.132 [info] > git config --get commit.template [1ms]
+2024-05-23 14:36:33.138 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:33.138 [warning] No such branch: main.
+2024-05-23 14:36:33.155 [info] > git status -z -uall [13ms]
+2024-05-23 14:36:38.191 [info] > git config --get commit.template [6ms]
+2024-05-23 14:36:38.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:38.191 [warning] No such branch: main.
+2024-05-23 14:36:38.206 [info] > git status -z -uall [10ms]
+2024-05-23 14:36:43.249 [info] > git config --get commit.template [11ms]
+2024-05-23 14:36:43.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:43.249 [warning] No such branch: main.
+2024-05-23 14:36:43.277 [info] > git status -z -uall [17ms]
+2024-05-23 14:36:48.315 [info] > git config --get commit.template [5ms]
+2024-05-23 14:36:48.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:48.315 [warning] No such branch: main.
+2024-05-23 14:36:48.331 [info] > git status -z -uall [12ms]
+2024-05-23 14:36:53.360 [info] > git config --get commit.template [5ms]
+2024-05-23 14:36:53.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:53.361 [warning] No such branch: main.
+2024-05-23 14:36:53.379 [info] > git status -z -uall [11ms]
+2024-05-23 14:36:58.413 [info] > git config --get commit.template [5ms]
+2024-05-23 14:36:58.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:36:58.414 [warning] No such branch: main.
+2024-05-23 14:36:58.429 [info] > git status -z -uall [12ms]
+2024-05-23 14:38:30.317 [info] > git config --get commit.template [1ms]
+2024-05-23 14:38:30.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:38:30.329 [warning] No such branch: main.
+2024-05-23 14:38:30.358 [info] > git status -z -uall [20ms]
+2024-05-23 14:38:33.379 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:38:35.425 [info] > git config --get commit.template [7ms]
+2024-05-23 14:38:35.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:38:35.426 [warning] No such branch: main.
+2024-05-23 14:38:35.447 [info] > git status -z -uall [14ms]
+2024-05-23 14:38:40.478 [info] > git config --get commit.template [1ms]
+2024-05-23 14:38:40.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:38:40.484 [warning] No such branch: main.
+2024-05-23 14:38:40.501 [info] > git status -z -uall [12ms]
+2024-05-23 14:39:43.520 [info] > git config --get commit.template [11ms]
+2024-05-23 14:39:43.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:39:43.521 [warning] No such branch: main.
+2024-05-23 14:39:43.542 [info] > git status -z -uall [14ms]
+2024-05-23 14:39:48.579 [info] > git config --get commit.template [4ms]
+2024-05-23 14:39:48.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:39:48.580 [warning] No such branch: main.
+2024-05-23 14:39:48.597 [info] > git status -z -uall [12ms]
+2024-05-23 14:39:53.632 [info] > git config --get commit.template [7ms]
+2024-05-23 14:39:53.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:39:53.633 [warning] No such branch: main.
+2024-05-23 14:39:53.651 [info] > git status -z -uall [13ms]
+2024-05-23 14:39:58.686 [info] > git config --get commit.template [5ms]
+2024-05-23 14:39:58.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:39:58.687 [warning] No such branch: main.
+2024-05-23 14:39:58.703 [info] > git status -z -uall [12ms]
+2024-05-23 14:40:03.739 [info] > git config --get commit.template [5ms]
+2024-05-23 14:40:03.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:40:03.739 [warning] No such branch: main.
+2024-05-23 14:40:03.761 [info] > git status -z -uall [15ms]
+2024-05-23 14:40:08.794 [info] > git config --get commit.template [1ms]
+2024-05-23 14:40:08.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-05-23 14:40:08.800 [warning] No such branch: main.
+2024-05-23 14:40:08.817 [info] > git status -z -uall [11ms]
+2024-05-23 14:40:13.843 [info] > git config --get commit.template [1ms]
+2024-05-23 14:40:13.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:40:13.848 [warning] No such branch: main.
+2024-05-23 14:40:13.864 [info] > git status -z -uall [12ms]
+2024-05-23 14:40:18.898 [info] > git config --get commit.template [5ms]
+2024-05-23 14:40:18.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:40:18.898 [warning] No such branch: main.
+2024-05-23 14:40:18.915 [info] > git status -z -uall [13ms]
+2024-05-23 14:40:59.363 [info] > git config --get commit.template [3ms]
+2024-05-23 14:40:59.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:40:59.377 [warning] No such branch: main.
+2024-05-23 14:40:59.410 [info] > git status -z -uall [21ms]
+2024-05-23 14:41:04.453 [info] > git config --get commit.template [6ms]
+2024-05-23 14:41:04.454 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:41:04.454 [warning] No such branch: main.
+2024-05-23 14:41:04.470 [info] > git status -z -uall [12ms]
+2024-05-23 14:41:22.236 [info] > git config --get commit.template [13ms]
+2024-05-23 14:41:22.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:41:22.237 [warning] No such branch: main.
+2024-05-23 14:41:22.266 [info] > git status -z -uall [20ms]
+2024-05-23 14:41:27.315 [info] > git config --get commit.template [5ms]
+2024-05-23 14:41:27.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:41:27.315 [warning] No such branch: main.
+2024-05-23 14:41:27.333 [info] > git status -z -uall [11ms]
+2024-05-23 14:41:32.363 [info] > git config --get commit.template [1ms]
+2024-05-23 14:41:32.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:41:32.370 [warning] No such branch: main.
+2024-05-23 14:41:32.385 [info] > git status -z -uall [11ms]
+2024-05-23 14:41:37.418 [info] > git config --get commit.template [6ms]
+2024-05-23 14:41:37.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:41:37.419 [warning] No such branch: main.
+2024-05-23 14:41:37.439 [info] > git status -z -uall [14ms]
+2024-05-23 14:41:42.471 [info] > git config --get commit.template [1ms]
+2024-05-23 14:41:42.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:41:42.478 [warning] No such branch: main.
+2024-05-23 14:41:42.494 [info] > git status -z -uall [11ms]
+2024-05-23 14:42:03.270 [info] > git config --get commit.template [13ms]
+2024-05-23 14:42:03.270 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:42:03.270 [warning] No such branch: main.
+2024-05-23 14:42:03.307 [info] > git status -z -uall [23ms]
+2024-05-23 14:42:08.360 [info] > git config --get commit.template [1ms]
+2024-05-23 14:42:08.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:42:08.368 [warning] No such branch: main.
+2024-05-23 14:42:08.383 [info] > git status -z -uall [11ms]
+2024-05-23 14:42:13.419 [info] > git config --get commit.template [6ms]
+2024-05-23 14:42:13.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:42:13.419 [warning] No such branch: main.
+2024-05-23 14:42:13.435 [info] > git status -z -uall [13ms]
+2024-05-23 14:42:18.474 [info] > git config --get commit.template [8ms]
+2024-05-23 14:42:18.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:42:18.475 [warning] No such branch: main.
+2024-05-23 14:42:18.494 [info] > git status -z -uall [13ms]
+2024-05-23 14:42:23.529 [info] > git config --get commit.template [7ms]
+2024-05-23 14:42:23.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:42:23.529 [warning] No such branch: main.
+2024-05-23 14:42:23.546 [info] > git status -z -uall [11ms]
+2024-05-23 14:43:17.970 [info] > git config --get commit.template [11ms]
+2024-05-23 14:43:17.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:43:17.970 [warning] No such branch: main.
+2024-05-23 14:43:17.992 [info] > git status -z -uall [16ms]
+2024-05-23 14:43:23.032 [info] > git config --get commit.template [6ms]
+2024-05-23 14:43:23.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:43:23.033 [warning] No such branch: main.
+2024-05-23 14:43:23.050 [info] > git status -z -uall [12ms]
+2024-05-23 14:43:28.087 [info] > git config --get commit.template [7ms]
+2024-05-23 14:43:28.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:43:28.087 [warning] No such branch: main.
+2024-05-23 14:43:28.104 [info] > git status -z -uall [12ms]
+2024-05-23 14:43:33.134 [info] > git config --get commit.template [1ms]
+2024-05-23 14:43:33.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:43:33.141 [warning] No such branch: main.
+2024-05-23 14:43:33.158 [info] > git status -z -uall [12ms]
+2024-05-23 14:43:38.193 [info] > git config --get commit.template [6ms]
+2024-05-23 14:43:38.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:43:38.193 [warning] No such branch: main.
+2024-05-23 14:43:38.211 [info] > git status -z -uall [13ms]
+2024-05-23 14:43:43.247 [info] > git config --get commit.template [6ms]
+2024-05-23 14:43:43.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:43:43.247 [warning] No such branch: main.
+2024-05-23 14:43:43.262 [info] > git status -z -uall [11ms]
+2024-05-23 14:43:48.296 [info] > git config --get commit.template [6ms]
+2024-05-23 14:43:48.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-05-23 14:43:48.297 [warning] No such branch: main.
+2024-05-23 14:43:48.313 [info] > git status -z -uall [12ms]
+2024-05-23 14:43:53.347 [info] > git config --get commit.template [7ms]
+2024-05-23 14:43:53.348 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:43:53.348 [warning] No such branch: main.
+2024-05-23 14:43:53.367 [info] > git status -z -uall [13ms]
+2024-05-23 14:43:58.403 [info] > git config --get commit.template [1ms]
+2024-05-23 14:43:58.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:43:58.411 [warning] No such branch: main.
+2024-05-23 14:43:58.431 [info] > git status -z -uall [13ms]
+2024-05-23 14:44:03.471 [info] > git config --get commit.template [6ms]
+2024-05-23 14:44:03.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:44:03.472 [warning] No such branch: main.
+2024-05-23 14:44:03.489 [info] > git status -z -uall [11ms]
+2024-05-23 14:44:08.518 [info] > git config --get commit.template [1ms]
+2024-05-23 14:44:08.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:44:08.524 [warning] No such branch: main.
+2024-05-23 14:44:08.542 [info] > git status -z -uall [11ms]
+2024-05-23 14:44:13.569 [info] > git config --get commit.template [0ms]
+2024-05-23 14:44:13.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:44:13.576 [warning] No such branch: main.
+2024-05-23 14:44:13.595 [info] > git status -z -uall [13ms]
+2024-05-23 14:44:18.632 [info] > git config --get commit.template [6ms]
+2024-05-23 14:44:18.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:44:18.632 [warning] No such branch: main.
+2024-05-23 14:44:18.648 [info] > git status -z -uall [11ms]
+2024-05-23 14:44:23.683 [info] > git config --get commit.template [9ms]
+2024-05-23 14:44:23.683 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:44:23.683 [warning] No such branch: main.
+2024-05-23 14:44:23.711 [info] > git status -z -uall [18ms]
+2024-05-23 14:44:43.255 [info] > git config --get commit.template [9ms]
+2024-05-23 14:44:43.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:44:43.256 [warning] No such branch: main.
+2024-05-23 14:44:43.280 [info] > git status -z -uall [17ms]
+2024-05-23 14:44:48.327 [info] > git config --get commit.template [8ms]
+2024-05-23 14:44:48.327 [info] No remotes found in the git config file.
+2024-05-23 14:44:48.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:44:48.328 [warning] No such branch: main.
+2024-05-23 14:44:48.343 [info] > git status -z -uall [10ms]
+2024-05-23 14:44:49.338 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:44:49.343 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:44:49.353 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:44:53.375 [info] > git config --get commit.template [2ms]
+2024-05-23 14:44:53.382 [info] No remotes found in the git config file.
+2024-05-23 14:44:53.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:44:53.384 [warning] No such branch: main.
+2024-05-23 14:44:53.407 [info] > git status -z -uall [18ms]
+2024-05-23 14:45:00.192 [info] No remotes found in the git config file.
+2024-05-23 14:45:00.193 [info] > git config --get commit.template [11ms]
+2024-05-23 14:45:00.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:45:00.194 [warning] No such branch: main.
+2024-05-23 14:45:00.216 [info] > git status -z -uall [14ms]
+2024-05-23 14:45:05.252 [info] No remotes found in the git config file.
+2024-05-23 14:45:05.253 [info] > git config --get commit.template [8ms]
+2024-05-23 14:45:05.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:45:05.253 [warning] No such branch: main.
+2024-05-23 14:45:05.273 [info] > git status -z -uall [14ms]
+2024-05-23 14:45:10.306 [info] > git config --get commit.template [0ms]
+2024-05-23 14:45:10.311 [info] No remotes found in the git config file.
+2024-05-23 14:45:10.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:45:10.311 [warning] No such branch: main.
+2024-05-23 14:45:10.327 [info] > git status -z -uall [11ms]
+2024-05-23 14:45:15.359 [info] > git config --get commit.template [1ms]
+2024-05-23 14:45:15.364 [info] No remotes found in the git config file.
+2024-05-23 14:45:15.365 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:45:15.365 [warning] No such branch: main.
+2024-05-23 14:45:15.380 [info] > git status -z -uall [11ms]
+2024-05-23 14:45:35.729 [info] No remotes found in the git config file.
+2024-05-23 14:45:35.730 [info] > git config --get commit.template [10ms]
+2024-05-23 14:45:35.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:45:35.730 [warning] No such branch: main.
+2024-05-23 14:45:35.754 [info] > git status -z -uall [18ms]
+2024-05-23 14:45:40.795 [info] > git config --get commit.template [1ms]
+2024-05-23 14:45:40.800 [info] No remotes found in the git config file.
+2024-05-23 14:45:40.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-05-23 14:45:40.800 [warning] No such branch: main.
+2024-05-23 14:45:40.816 [info] > git status -z -uall [11ms]
+2024-05-23 14:45:45.845 [info] > git config --get commit.template [5ms]
+2024-05-23 14:45:45.845 [info] No remotes found in the git config file.
+2024-05-23 14:45:45.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:45:45.846 [warning] No such branch: main.
+2024-05-23 14:45:45.861 [info] > git status -z -uall [12ms]
+2024-05-23 14:45:50.893 [info] > git config --get commit.template [1ms]
+2024-05-23 14:45:50.899 [info] No remotes found in the git config file.
+2024-05-23 14:45:50.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:45:50.899 [warning] No such branch: main.
+2024-05-23 14:45:50.915 [info] > git status -z -uall [10ms]
+2024-05-23 14:45:53.630 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:45:53.636 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:45:53.647 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:45:55.940 [info] > git config --get commit.template [0ms]
+2024-05-23 14:45:55.947 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:45:55.947 [warning] No such branch: main.
+2024-05-23 14:45:55.968 [info] > git status -z -uall [14ms]
+2024-05-23 14:46:01.005 [info] > git config --get commit.template [5ms]
+2024-05-23 14:46:01.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:01.005 [warning] No such branch: main.
+2024-05-23 14:46:01.021 [info] > git status -z -uall [12ms]
+2024-05-23 14:46:06.382 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:46:06.387 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:46:06.395 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:46:11.446 [info] > git config --get commit.template [5ms]
+2024-05-23 14:46:11.446 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:11.446 [warning] No such branch: main.
+2024-05-23 14:46:11.463 [info] > git status -z -uall [11ms]
+2024-05-23 14:46:16.498 [info] > git config --get commit.template [5ms]
+2024-05-23 14:46:16.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:16.498 [warning] No such branch: main.
+2024-05-23 14:46:16.514 [info] > git status -z -uall [10ms]
+2024-05-23 14:46:18.637 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:46:21.547 [info] > git config --get commit.template [6ms]
+2024-05-23 14:46:21.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:21.547 [warning] No such branch: main.
+2024-05-23 14:46:21.565 [info] > git status -z -uall [13ms]
+2024-05-23 14:46:24.212 [info] > git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads [1ms]
+2024-05-23 14:46:24.239 [info] > git checkout -q --track origin/main [18ms]
+2024-05-23 14:46:24.251 [info] > git config --get commit.template [6ms]
+2024-05-23 14:46:24.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:24.278 [info] > git status -z -uall [16ms]
+2024-05-23 14:46:24.319 [info] > git merge-base refs/heads/main refs/remotes/origin/main [25ms]
+2024-05-23 14:46:24.329 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-05-23 14:46:24.337 [info] > git diff --name-status -z --diff-filter=ADMR 4186b128de7d69b035e2fba89564101a6b49e7ce...refs/remotes/origin/main [2ms]
+2024-05-23 14:46:24.674 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-05-23 14:46:24.686 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-05-23 14:46:25.784 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:46:25.790 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [0ms]
+2024-05-23 14:46:25.800 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:46:26.602 [info] > git config --get commit.template [5ms]
+2024-05-23 14:46:26.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:26.624 [info] > git status -z -uall [15ms]
+2024-05-23 14:46:31.408 [info] > git log --oneline --cherry main...main@{upstream} -- [1ms]
+2024-05-23 14:46:32.034 [info] > git pull --tags origin main [614ms]
+2024-05-23 14:46:32.034 [info] From https://github.com/yu-sakukami/mainrepo
+ * branch            main       -> FETCH_HEAD
+2024-05-23 14:46:32.045 [info] > git config --get commit.template [5ms]
+2024-05-23 14:46:32.045 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:32.064 [info] > git status -z -uall [14ms]
+2024-05-23 14:46:32.103 [info] > git config --get commit.template [6ms]
+2024-05-23 14:46:32.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:32.129 [info] > git status -z -uall [18ms]
+2024-05-23 14:46:33.585 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:46:33.590 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:46:33.599 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:46:37.166 [info] > git config --get commit.template [1ms]
+2024-05-23 14:46:37.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:37.193 [info] > git status -z -uall [14ms]
+2024-05-23 14:46:42.227 [info] > git config --get commit.template [1ms]
+2024-05-23 14:46:42.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:42.251 [info] > git status -z -uall [12ms]
+2024-05-23 14:46:48.135 [info] > git config --get commit.template [13ms]
+2024-05-23 14:46:48.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:46:48.158 [info] > git status -z -uall [16ms]
+2024-05-23 14:46:48.791 [info] > git log --oneline --cherry main...main@{upstream} -- [519ms]
+2024-05-23 14:46:49.316 [info] > git pull --tags origin main [517ms]
+2024-05-23 14:46:49.316 [info] From https://github.com/yu-sakukami/mainrepo
+ * branch            main       -> FETCH_HEAD
+2024-05-23 14:46:49.334 [info] > git config --get commit.template [10ms]
+2024-05-23 14:46:49.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:49.357 [info] > git status -z -uall [15ms]
+2024-05-23 14:46:50.806 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:46:50.815 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:46:50.829 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:46:53.203 [info] > git config --get commit.template [7ms]
+2024-05-23 14:46:53.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:46:53.224 [info] > git status -z -uall [13ms]
+2024-05-23 14:46:58.253 [info] > git config --get commit.template [1ms]
+2024-05-23 14:46:58.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:46:58.278 [info] > git status -z -uall [13ms]
+2024-05-23 14:47:11.258 [info] > git config --get commit.template [1ms]
+2024-05-23 14:47:11.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:47:11.289 [info] > git status -z -uall [18ms]
+2024-05-23 14:47:16.325 [info] > git config --get commit.template [1ms]
+2024-05-23 14:47:16.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:47:16.351 [info] > git status -z -uall [11ms]
+2024-05-23 14:47:21.393 [info] > git config --get commit.template [11ms]
+2024-05-23 14:47:21.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:47:21.423 [info] > git status -z -uall [19ms]
+2024-05-23 14:47:26.471 [info] > git config --get commit.template [7ms]
+2024-05-23 14:47:26.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:47:26.489 [info] > git status -z -uall [13ms]
+2024-05-23 14:47:31.522 [info] > git config --get commit.template [1ms]
+2024-05-23 14:47:31.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:47:31.551 [info] > git status -z -uall [15ms]
+2024-05-23 14:47:35.096 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:47:36.587 [info] > git config --get commit.template [1ms]
+2024-05-23 14:47:36.598 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:47:36.625 [info] > git status -z -uall [16ms]
+2024-05-23 14:47:37.867 [info] > git checkout -q main [16ms]
+2024-05-23 14:47:37.882 [info] > git config --get commit.template [7ms]
+2024-05-23 14:47:37.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:47:37.907 [info] > git status -z -uall [17ms]
+2024-05-23 14:47:39.388 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:47:39.401 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:47:39.448 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [28ms]
+2024-05-23 14:47:41.523 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:47:41.666 [info] > git config --get commit.template [1ms]
+2024-05-23 14:47:41.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:47:41.726 [info] > git status -z -uall [42ms]
+2024-05-23 14:47:46.759 [info] > git config --get commit.template [1ms]
+2024-05-23 14:47:46.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-05-23 14:47:46.818 [info] > git status -z -uall [24ms]
+2024-05-23 14:47:47.198 [info] > git checkout -q -b sub1 --no-track HEAD [28ms]
+2024-05-23 14:47:47.225 [info] > git config --get commit.template [17ms]
+2024-05-23 14:47:47.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [3ms]
+2024-05-23 14:47:47.269 [info] > git status -z -uall [22ms]
+2024-05-23 14:47:47.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 [15ms]
+2024-05-23 14:47:47.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 [1ms]
+2024-05-23 14:47:47.348 [info] > git config --local branch.sub1.vscode-merge-base [1ms]
+2024-05-23 14:47:47.348 [warning] git config failed: Failed to execute git
+2024-05-23 14:47:47.674 [info] > git reflog refs/heads/sub1 --grep-reflog=branch: Created from *. [316ms]
+2024-05-23 14:47:47.689 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to sub1 [4ms]
+2024-05-23 14:47:47.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:47:47.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/main [1ms]
+2024-05-23 14:47:47.724 [info] > git config --local branch.sub1.vscode-merge-base origin/main [2ms]
+2024-05-23 14:47:47.737 [info] > git config --get commit.template [1ms]
+2024-05-23 14:47:47.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:47:47.793 [info] > git status -z -uall [34ms]
+2024-05-23 14:47:47.824 [info] > git merge-base refs/heads/sub1 refs/remotes/origin/main [2ms]
+2024-05-23 14:47:47.841 [info] > git rev-list --count --left-right refs/heads/sub1...refs/remotes/origin/main [8ms]
+2024-05-23 14:47:49.302 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:47:49.311 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:47:49.331 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [8ms]
+2024-05-23 14:47:51.440 [info] > git push -u origin sub1 [1481ms]
+2024-05-23 14:47:51.440 [info] remote: 
+remote: Create a pull request for 'sub1' on GitHub by visiting:        
+remote:      https://github.com/yu-sakukami/mainrepo/pull/new/sub1        
+remote: 
+To https://github.com/yu-sakukami/mainrepo.git
+ * [new branch]      sub1 -> sub1
+2024-05-23 14:47:51.459 [info] > git config --get commit.template [9ms]
+2024-05-23 14:47:51.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:47:51.481 [info] > git status -z -uall [14ms]
+2024-05-23 14:47:51.515 [info] > git merge-base refs/heads/sub1 refs/remotes/origin/sub1 [20ms]
+2024-05-23 14:47:51.526 [info] > git rev-list --count --left-right refs/heads/sub1...refs/remotes/origin/sub1 [1ms]
+2024-05-23 14:47:51.550 [info] > git merge-base refs/heads/sub1 refs/remotes/origin/sub1 [2ms]
+2024-05-23 14:47:51.562 [info] > git diff --name-status -z --diff-filter=ADMR 4186b128de7d69b035e2fba89564101a6b49e7ce...refs/remotes/origin/sub1 [26ms]
+2024-05-23 14:47:51.563 [info] > git rev-list --count --left-right refs/heads/sub1...refs/remotes/origin/sub1 [1ms]
+2024-05-23 14:47:51.858 [info] > git config --get commit.template [1ms]
+2024-05-23 14:47:51.872 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:47:51.907 [info] > git status -z -uall [22ms]
+2024-05-23 14:48:00.695 [info] > git config --get commit.template [15ms]
+2024-05-23 14:48:00.709 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [14ms]
+2024-05-23 14:48:00.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [27ms]
+2024-05-23 14:48:00.736 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [2ms]
+2024-05-23 14:48:00.800 [info] > git status -z -uall [31ms]
+2024-05-23 14:48:00.800 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [11ms]
+2024-05-23 14:48:05.840 [info] > git config --get commit.template [1ms]
+2024-05-23 14:48:05.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:05.889 [info] > git status -z -uall [29ms]
+2024-05-23 14:48:10.918 [info] > git config --get commit.template [1ms]
+2024-05-23 14:48:10.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:10.959 [info] > git status -z -uall [14ms]
+2024-05-23 14:48:13.538 [info] > git push origin sub1:sub1 [670ms]
+2024-05-23 14:48:13.539 [info] Everything up-to-date
+2024-05-23 14:48:13.557 [info] > git config --get commit.template [8ms]
+2024-05-23 14:48:13.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:13.581 [info] > git status -z -uall [13ms]
+2024-05-23 14:48:16.013 [info] > git config --get commit.template [14ms]
+2024-05-23 14:48:16.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:16.050 [info] > git status -z -uall [21ms]
+2024-05-23 14:48:21.088 [info] > git config --get commit.template [1ms]
+2024-05-23 14:48:21.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:21.120 [info] > git status -z -uall [12ms]
+2024-05-23 14:48:26.154 [info] > git config --get commit.template [1ms]
+2024-05-23 14:48:26.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:26.202 [info] > git status -z -uall [26ms]
+2024-05-23 14:48:31.237 [info] > git config --get commit.template [1ms]
+2024-05-23 14:48:31.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:31.270 [info] > git status -z -uall [15ms]
+2024-05-23 14:48:36.304 [info] > git config --get commit.template [1ms]
+2024-05-23 14:48:36.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:36.330 [info] > git status -z -uall [13ms]
+2024-05-23 14:48:41.365 [info] > git config --get commit.template [6ms]
+2024-05-23 14:48:41.365 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:41.383 [info] > git status -z -uall [12ms]
+2024-05-23 14:48:46.420 [info] > git config --get commit.template [1ms]
+2024-05-23 14:48:46.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:46.446 [info] > git status -z -uall [14ms]
+2024-05-23 14:48:51.479 [info] > git config --get commit.template [1ms]
+2024-05-23 14:48:51.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:51.504 [info] > git status -z -uall [12ms]
+2024-05-23 14:48:56.538 [info] > git config --get commit.template [7ms]
+2024-05-23 14:48:56.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:48:56.559 [info] > git status -z -uall [14ms]
+2024-05-23 14:49:01.607 [info] > git config --get commit.template [0ms]
+2024-05-23 14:49:01.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:49:01.633 [info] > git status -z -uall [12ms]
+2024-05-23 14:49:06.670 [info] > git config --get commit.template [7ms]
+2024-05-23 14:49:06.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:49:06.691 [info] > git status -z -uall [14ms]
+2024-05-23 14:49:10.509 [info] > git config --get commit.template [0ms]
+2024-05-23 14:49:10.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:49:10.535 [info] > git status -z -uall [15ms]
+2024-05-23 14:49:10.565 [info] > git merge-base refs/heads/sub1 refs/remotes/origin/sub1 [1ms]
+2024-05-23 14:49:10.581 [info] > git rev-list --count --left-right refs/heads/sub1...refs/remotes/origin/sub1 [9ms]
+2024-05-23 14:49:10.593 [info] > git merge-base refs/heads/sub1 refs/remotes/origin/sub1 [13ms]
+2024-05-23 14:49:10.600 [info] > git diff --name-status -z --diff-filter=ADMR 4186b128de7d69b035e2fba89564101a6b49e7ce...refs/remotes/origin/sub1 [13ms]
+2024-05-23 14:49:10.601 [info] > git rev-list --count --left-right refs/heads/sub1...refs/remotes/origin/sub1 [2ms]
+2024-05-23 14:49:11.722 [info] > git config --get commit.template [1ms]
+2024-05-23 14:49:11.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:49:11.751 [info] > git status -z -uall [15ms]
+2024-05-23 14:49:16.785 [info] > git config --get commit.template [0ms]
+2024-05-23 14:49:16.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:49:16.824 [info] > git status -z -uall [18ms]
+2024-05-23 14:49:21.856 [info] > git config --get commit.template [0ms]
+2024-05-23 14:49:21.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:49:21.886 [info] > git status -z -uall [15ms]
+2024-05-23 14:49:23.923 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-05-23 14:49:26.925 [info] > git config --get commit.template [7ms]
+2024-05-23 14:49:26.926 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [2ms]
+2024-05-23 14:49:26.947 [info] > git status -z -uall [13ms]
+2024-05-23 14:49:31.987 [info] > git config --get commit.template [8ms]
+2024-05-23 14:49:31.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/sub1 refs/remotes/sub1 [1ms]
+2024-05-23 14:49:32.011 [info] > git status -z -uall [15ms]
+2024-05-23 14:49:33.200 [info] > git checkout -q main [12ms]
+2024-05-23 14:49:33.213 [info] > git config --get commit.template [6ms]
+2024-05-23 14:49:33.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:49:33.234 [info] > git status -z -uall [14ms]
+2024-05-23 14:49:33.274 [info] > git merge-base refs/heads/main refs/remotes/origin/main [26ms]
+2024-05-23 14:49:33.286 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-05-23 14:49:33.299 [info] > git diff --name-status -z --diff-filter=ADMR 4186b128de7d69b035e2fba89564101a6b49e7ce...refs/remotes/origin/main [2ms]
+2024-05-23 14:49:33.584 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-05-23 14:49:33.592 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-05-23 14:49:34.692 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:49:34.698 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:49:34.709 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:49:37.051 [info] > git config --get commit.template [5ms]
+2024-05-23 14:49:37.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:49:37.071 [info] > git status -z -uall [14ms]
+2024-05-23 14:49:42.105 [info] > git config --get commit.template [1ms]
+2024-05-23 14:49:42.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:49:42.130 [info] > git status -z -uall [12ms]
+2024-05-23 14:49:44.772 [info] > git -c user.useConfigOnly=true commit --quiet [8ms]
+2024-05-23 14:49:44.772 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-05-23 14:49:44.781 [info] > git config --get-all user.name [1ms]
+2024-05-23 14:49:44.798 [info] > git config --get commit.template [10ms]
+2024-05-23 14:49:44.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:49:44.826 [info] > git status -z -uall [18ms]
+2024-05-23 14:49:52.116 [info] > git config --get commit.template [7ms]
+2024-05-23 14:49:52.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:49:52.135 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:49:52.146 [info] > git status -z -uall [22ms]
+2024-05-23 14:49:52.147 [info] > git cat-file -s 5c4ff60feaf197118ac73afd04ffbd10d05c690b [1ms]
+2024-05-23 14:49:52.199 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [2ms]
+2024-05-23 14:49:57.181 [info] > git config --get commit.template [4ms]
+2024-05-23 14:49:57.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:49:57.206 [info] > git status -z -uall [15ms]
+2024-05-23 14:50:02.251 [info] > git config --get commit.template [10ms]
+2024-05-23 14:50:02.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:50:02.278 [info] > git status -z -uall [17ms]
+2024-05-23 14:50:07.319 [info] > git config --get commit.template [1ms]
+2024-05-23 14:50:07.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:50:07.347 [info] > git status -z -uall [13ms]
+2024-05-23 14:50:12.383 [info] > git config --get commit.template [7ms]
+2024-05-23 14:50:12.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:50:12.408 [info] > git status -z -uall [16ms]
+2024-05-23 14:50:17.444 [info] > git config --get commit.template [1ms]
+2024-05-23 14:50:17.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:50:17.476 [info] > git status -z -uall [15ms]
+2024-05-23 14:50:22.511 [info] > git config --get commit.template [1ms]
+2024-05-23 14:50:22.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:50:22.538 [info] > git status -z -uall [14ms]
+2024-05-23 14:50:27.570 [info] > git config --get commit.template [0ms]
+2024-05-23 14:50:27.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:50:27.596 [info] > git status -z -uall [14ms]
+2024-05-23 14:50:32.631 [info] > git config --get commit.template [0ms]
+2024-05-23 14:50:32.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:50:32.658 [info] > git status -z -uall [13ms]
+2024-05-23 14:50:37.700 [info] > git config --get commit.template [7ms]
+2024-05-23 14:50:37.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:50:37.724 [info] > git status -z -uall [14ms]
+2024-05-23 14:50:42.759 [info] > git config --get commit.template [1ms]
+2024-05-23 14:50:42.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-05-23 14:50:42.797 [info] > git status -z -uall [15ms]
+2024-05-23 14:50:47.837 [info] > git config --get commit.template [7ms]
+2024-05-23 14:50:47.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:50:47.857 [info] > git status -z -uall [13ms]
+2024-05-23 14:50:52.893 [info] > git config --get commit.template [6ms]
+2024-05-23 14:50:52.894 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:50:52.915 [info] > git status -z -uall [13ms]
+2024-05-23 14:50:57.950 [info] > git config --get commit.template [1ms]
+2024-05-23 14:50:57.957 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:50:57.981 [info] > git status -z -uall [15ms]
+2024-05-23 14:51:01.089 [info] > git branch [2ms]
+2024-05-23 14:51:01.101 [info] > git reset -q HEAD -- . [6ms]
+2024-05-23 14:51:01.122 [info] > git config --get commit.template [1ms]
+2024-05-23 14:51:01.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:51:01.153 [info] > git status -z -uall [16ms]
+2024-05-23 14:51:02.193 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-23 14:51:02.562 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:51:02.572 [info] > git show --textconv :test-project/resources/views/welcome.blade.php [1ms]
+2024-05-23 14:51:03.023 [info] > git config --get commit.template [7ms]
+2024-05-23 14:51:03.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:51:03.043 [info] > git status -z -uall [12ms]
+2024-05-23 14:51:07.750 [info] > git config --get commit.template [7ms]
+2024-05-23 14:51:07.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:51:07.776 [info] > git status -z -uall [16ms]
+2024-05-23 14:51:07.814 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-05-23 14:51:07.830 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-05-23 14:51:07.836 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [17ms]
+2024-05-23 14:51:07.843 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [7ms]
+2024-05-23 14:51:07.844 [info] > git diff --name-status -z --diff-filter=ADMR 4186b128de7d69b035e2fba89564101a6b49e7ce...refs/remotes/origin/main [2ms]
+2024-05-23 14:51:08.078 [info] > git config --get commit.template [0ms]
+2024-05-23 14:51:08.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:51:08.108 [info] > git status -z -uall [15ms]
+2024-05-23 14:51:13.144 [info] > git config --get commit.template [1ms]
+2024-05-23 14:51:13.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:51:13.171 [info] > git status -z -uall [12ms]
+2024-05-23 14:51:18.563 [info] > git config --get commit.template [11ms]
+2024-05-23 14:51:18.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:51:18.601 [info] > git status -z -uall [21ms]
+2024-05-23 14:51:23.653 [info] > git config --get commit.template [8ms]
+2024-05-23 14:51:23.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:51:23.678 [info] > git status -z -uall [16ms]
+2024-05-23 14:51:28.722 [info] > git config --get commit.template [7ms]
+2024-05-23 14:51:28.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:51:28.740 [info] > git status -z -uall [12ms]

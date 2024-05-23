@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:28:13.853805700Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kagaya_yusaku/.docker/contexts
+[2024-05-22T02:28:13.859635130Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kagaya_yusaku/.docker/contexts os.Symlink <HOME>/.docker/contexts -> /mnt/c/Users/kagaya_yusaku/.docker/contexts
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:28:14.490600438Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/kagaya_yusaku/.aws, linkPath = <HOME>/.aws
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:28:15.240887682Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/kagaya_yusaku/.azure, linkPath = <HOME>/.azure
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:28:15.936931621Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/kagaya_yusaku/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:50:06.676445387Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kagaya_yusaku/.docker/contexts
+[2024-05-22T02:50:06.682844713Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kagaya_yusaku/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:50:07.465807025Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/kagaya_yusaku/.aws, linkPath = <HOME>/.aws
+[2024-05-22T02:50:07.469338222Z][docker-desktop-user-distro] no need to symlink <HOME>/.aws to /mnt/c/Users/kagaya_yusaku/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:50:08.026719913Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/kagaya_yusaku/.azure, linkPath = <HOME>/.azure
+[2024-05-22T02:50:08.029136064Z][docker-desktop-user-distro] no need to symlink <HOME>/.azure to /mnt/c/Users/kagaya_yusaku/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+[2024-05-22T02:50:08.531351176Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/kagaya_yusaku/.docker/features.json, linkPath = ~/.docker/features.json
+-------------------------------------------------------------------------------->8
+[2024-05-22T04:20:37.585848474Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kagaya_yusaku/.docker/contexts
+[2024-05-22T04:20:37.589894143Z][docker-desktop-user-distro] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/kagaya_yusaku/.docker/contexts: syncNoop
+-------------------------------------------------------------------------------->8
+[2024-05-22T04:20:38.220785670Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/kagaya_yusaku/.aws, linkPath = <HOME>/.aws
+[2024-05-22T04:20:38.223675122Z][docker-desktop-user-distro] no need to symlink <HOME>/.aws to /mnt/c/Users/kagaya_yusaku/.aws: they are the same path already
+-------------------------------------------------------------------------------->8
+[2024-05-22T04:20:38.752405742Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/kagaya_yusaku/.azure, linkPath = <HOME>/.azure
+[2024-05-22T04:20:38.755352125Z][docker-desktop-user-distro] no need to symlink <HOME>/.azure to /mnt/c/Users/kagaya_yusaku/.azure: they are the same path already
+-------------------------------------------------------------------------------->8
+[2024-05-22T04:20:39.300430797Z][docker-desktop-user-distro] linkPathToWindows windowsPath = /mnt/c/Users/kagaya_yusaku/.docker/features.json, linkPath = ~/.docker/features.json

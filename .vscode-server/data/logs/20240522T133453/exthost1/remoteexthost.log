@@ -1,0 +1,13 @@
+2024-05-22 13:34:54.864 [info] Extension host with pid 6823 started
+2024-05-22 13:34:54.875 [info] Lock '/home/tenda/.vscode-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/vscode.lock': Lock acquired.
+2024-05-22 13:34:55.059 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-22 13:34:55.398 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-22 13:34:55.819 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-22 13:34:55.819 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-22 13:34:56.113 [info] Eager extensions activated
+2024-05-22 13:34:56.113 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-22 13:34:56.113 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-22 13:35:16.701 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-05-22 13:56:32.644 [info] Extension host terminating: received terminate message from renderer
+2024-05-22 13:56:32.645 [info] Lock '/home/tenda/.vscode-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-05-22 13:56:32.675 [info] Extension host with pid 6823 exiting with code 0
